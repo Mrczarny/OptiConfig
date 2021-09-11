@@ -7,8 +7,7 @@ using System.Threading.Tasks;
 namespace OptiConfigLib
 {
     public class BitlockerModel
-    {
-        public bool BitlockerEnabled { get; set; }
+    { 
         public string ServiceTag { get; set; }
         public string UsbName { get; set; }
     }

@@ -310,6 +310,7 @@ namespace OptiConfigUI
             this.savedConfigComboBox.Name = "savedConfigComboBox";
             this.savedConfigComboBox.Size = new System.Drawing.Size(148, 26);
             this.savedConfigComboBox.TabIndex = 14;
+            this.savedConfigComboBox.SelectedIndexChanged += new System.EventHandler(this.savedConfigComboBox_SelectedIndexChanged);
             // 
             // savedConfigLabel
             // 

@@ -17,7 +17,7 @@ namespace OptiConfigUI
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            GlobalConfig.InitializeCommands();
+            GlobalConfig.InitializeGlobalConfig();
             Application.Run(new OptiConfigDashboardForm());
         }
     }

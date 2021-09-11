@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace OptiConfigLib.Models
 {
-    class ConfigModel
+    public class ConfigModel
     {
         public int Id { get; set; }
         public string Name { get; set; }

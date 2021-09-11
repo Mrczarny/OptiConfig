@@ -17,6 +17,7 @@ namespace OptiConfigUI
     {
 
         private string message = "Operation completed! Do you want to see report?";
+        private List<ConfigModel> configs = GlobalConfig.dataProcessor.GetConfigModels();
         public OptiConfigDashboardForm()
         {
             InitializeComponent();
@@ -25,11 +26,20 @@ namespace OptiConfigUI
 
         private void LoadForm()
         {
-            configLabel.Enabled = false;
-            configTextBox.Enabled = false;
-            saveConfigButton.Enabled = false;
-            savedConfigComboBox.Enabled = false;
-            savedConfigLabel.Enabled = false;
+            //configLabel.Enabled = false;
+            //configTextBox.Enabled = false;
+            //saveConfigButton.Enabled = false;
+            //savedConfigComboBox.Enabled = false;
+            //savedConfigLabel.Enabled = false;
+            addUserEnableCheckBox.Checked = true;
+            secpolEnableCheckBox.Checked = true;
+            AddUserGroupBox.Enabled = true;
+            seceditGroupBox.Enabled = true;
+
+            savedConfigComboBox.DataSource = null;
+            savedConfigComboBox.DataSource = configs;
+            savedConfigComboBox.DisplayMember = "Name";
+
             if (bitlockerCheckBox.Checked != true)
             {
                 addBitlockerButton.Enabled = false;
@@ -46,6 +56,21 @@ namespace OptiConfigUI
             {
                 seceditGroupBox.Enabled = false;
             }
+
+            
+        }
+
+        private void updateForm()
+        {
+
+        }
+        private void updateSavedConfigComboBox(List<ConfigModel> models)
+        {
+            configs = models;
+            savedConfigComboBox.DataSource = null;
+            savedConfigComboBox.DataSource = configs;
+            savedConfigComboBox.DisplayMember = "Name";
+            savedConfigComboBox.Refresh();
         }
 
         private void bitlockerCheckBox_CheckedChanged(object sender, EventArgs e)
@@ -134,6 +159,115 @@ namespace OptiConfigUI
         private void saveConfigButton_Click(object sender, EventArgs e)
         {
             //TODO - add in later update
+            ConfigModel config = new ConfigModel();
+            if (configTextBox.Text != "")
+            {
+                config.Name = configTextBox.Text;
+                if (secpolEnableCheckBox.Checked)
+                {
+                    if (validateSecpolEdit())
+                    {
+                        SecpolModel secpol = new SecpolModel();
+                        secpol.PasswordComplexity = passwordComplCheckBox.Checked;
+                        secpol.MinimumPasswordLength = Convert.ToInt32(passwordMinLengTextBox.Text);
+                        secpol.MaximumPasswordAge = Convert.ToInt32(maxPasswordAgeTextBox.Text);
+                        secpol.PasswordHistorySize = Convert.ToInt32(passwordHisSizeTextBox.Text);
+                        config.SecpolConfig = secpol;
+                    }
+                }
+                if (addUserEnableCheckBox.Checked)
+                {
+                    if (validateUser())
+                    {
+                        UserModel user = new UserModel();
+                        user.UserName = userTextBox.Text;
+                        user.UserPassword = passwordTextBox.Text;
+                        user.UserLocalGroup = groupTextBox.Text;
+                        user.UserDescription = descriptionTextBox.Text;
+                        user.UserNeverExpires = neverUserCheckBox.Checked;
+                        config.UserConfig = user;
+                    }
+                }
+                if (bitlockerCheckBox.Checked)
+                {
+                    if (validateBitlocker())
+                    {
+                        BitlockerModel bitlocker = new BitlockerModel();
+                        bitlocker.ServiceTag = serviceTagTextBox.Text;
+                        bitlocker.UsbName = usbNameTextBox.Text;
+                        config.BitlockerConfig = bitlocker;
+                    }
+                }
+                updateSavedConfigComboBox(GlobalConfig.dataProcessor.ConfigModelToJson(config));
+
+            }
+            else
+            {
+                MessageBox.Show("Please add cofiguration name.", "Error saving config");
+            }
+        }
+        private void savedConfigComboBox_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            ConfigModel config = (ConfigModel)savedConfigComboBox.SelectedItem;
+
+            if (config != null)
+            {
+                configTextBox.Text = config.Name;
+                if (config.SecpolConfig != null)
+                {
+                    secpolEnableCheckBox.Checked = true;
+                    passwordComplCheckBox.Checked = config.SecpolConfig.PasswordComplexity;
+                    passwordMinLengTextBox.Text = null;
+                    passwordMinLengTextBox.Text = config.SecpolConfig.MinimumPasswordLength.ToString();
+                    maxPasswordAgeTextBox.Text = null;
+                    maxPasswordAgeTextBox.Text = config.SecpolConfig.MaximumPasswordAge.ToString();
+                    passwordHisSizeTextBox.Text = null;
+                    passwordHisSizeTextBox.Text = config.SecpolConfig.PasswordHistorySize.ToString();
+                }
+                else
+                {
+                    secpolEnableCheckBox.Checked = false;
+                    passwordMinLengTextBox.Text = null;
+                    maxPasswordAgeTextBox.Text = null;
+                    passwordHisSizeTextBox.Text = null;
+                }
+                if (config.UserConfig != null)
+                {
+                    addUserEnableCheckBox.Checked = true;
+                    userTextBox.Text = null;
+                    userTextBox.Text = config.UserConfig.UserName;
+                    passwordTextBox.Text = null;
+                    passwordTextBox.Text = config.UserConfig.UserPassword;
+                    groupTextBox.Text = null;
+                    groupTextBox.Text = config.UserConfig.UserLocalGroup;
+                    descriptionTextBox.Text = null;
+                    descriptionTextBox.Text = config.UserConfig.UserDescription;
+                    neverUserCheckBox.Checked = config.UserConfig.UserNeverExpires;
+                }
+                else
+                {
+                    addUserEnableCheckBox.Checked = false;
+                    userTextBox.Text = null;
+                    passwordTextBox.Text = null;
+                    groupTextBox.Text = null;
+                    descriptionTextBox.Text = null;
+                    neverUserCheckBox.Checked = false;
+                }
+                if (config.BitlockerConfig != null)
+                {
+                    bitlockerCheckBox.Checked = true;
+                    serviceTagTextBox.Text = null;
+                    serviceTagTextBox.Text = config.BitlockerConfig.ServiceTag;
+                    usbNameTextBox.Text = null;
+                    usbNameTextBox.Text = config.BitlockerConfig.UsbName;
+                }
+                else
+                {
+                    bitlockerCheckBox.Checked = false;
+                    serviceTagTextBox.Text = null;
+                    usbNameTextBox.Text = null;
+                }
+            }
         }
 
         private void confirmButton_Click(object sender, EventArgs e)
@@ -221,7 +355,6 @@ namespace OptiConfigUI
             }
             return output;
         }
-
 
     }
 }

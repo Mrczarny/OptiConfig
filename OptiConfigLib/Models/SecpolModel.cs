@@ -8,7 +8,6 @@ namespace OptiConfigLib.Models
 {
     public class SecpolModel
     {
-        public bool SecpolEnabled { get; set; }
         public bool PasswordComplexity { get; set; }
         public int MinimumPasswordLength { get; set; }
         public int MaximumPasswordAge { get; set; }
