@@ -11,8 +11,8 @@ namespace OptiConfigLib
 {
     public class DataProcessor
     {
-        //private string JsonFilePath = System.Windows.Forms.Application.StartupPath + @"\SavedConfig.json";
-        private string JsonFilePath = @"C:\Users\kuba\Desktop\projects\C#\OptiConfig\JsonTest\test.json";
+        private string JsonFilePath = System.Windows.Forms.Application.StartupPath + @"\SavedConfig.json";
+        //private string JsonFilePath = @"C:\Users\kuba\Desktop\projects\C#\OptiConfig\JsonTest\test.json";
         public List<ConfigModel> ConfigModelToJson(ConfigModel model)
         {
             string jsonFile = File.ReadAllText(JsonFilePath);

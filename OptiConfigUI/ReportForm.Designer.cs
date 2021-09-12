@@ -29,6 +29,7 @@ namespace OptiConfigUI
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(ReportForm));
             this.reportName = new System.Windows.Forms.Label();
             this.okButton = new System.Windows.Forms.Button();
             this.reportRichTextBox = new System.Windows.Forms.RichTextBox();
@@ -89,6 +90,7 @@ namespace OptiConfigUI
             this.Controls.Add(this.reportName);
             this.Controls.Add(this.reportRichTextBox);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MaximizeBox = false;
             this.MinimizeBox = false;
             this.Name = "ReportForm";

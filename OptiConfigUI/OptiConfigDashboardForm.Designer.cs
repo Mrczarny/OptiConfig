@@ -29,6 +29,7 @@ namespace OptiConfigUI
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(OptiConfigDashboardForm));
             this.AddUserGroupBox = new System.Windows.Forms.GroupBox();
             this.descriptionLabel = new System.Windows.Forms.Label();
             this.groupLabel = new System.Windows.Forms.Label();
@@ -423,6 +424,7 @@ namespace OptiConfigUI
             this.Controls.Add(this.serviceTagTextBox);
             this.Controls.Add(this.serviceTagLabel);
             this.Controls.Add(this.AddUserGroupBox);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "OptiConfigDashboardForm";
             this.Text = "OptiConfig";
             this.Load += new System.EventHandler(this.OptiConfigDashboardForm_Load);
