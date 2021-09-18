@@ -58,6 +58,7 @@ OptiConfig is simple tool to easly configure some of Windows 10 settings includi
   * adding users,
   * editing password policy, 
   * and enabling bitlocker on your computer.
+
 OptiConfig is builded with thought to do all this things in one place with one click. 
 
 ### Built With
