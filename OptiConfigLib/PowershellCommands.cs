@@ -83,8 +83,9 @@ namespace OptiConfigLib
             string script = System.Windows.Forms.Application.StartupPath + @"\PSScripts\UserAddScript.ps1";
 
             CommandParameter userNameParameter = new CommandParameter("UserName", user.UserName);
-            CommandParameter passwordParameter = new CommandParameter("Password", user.UserPassword);
-            List<CommandParameter> parametersList = new List<CommandParameter>() {passwordParameter, userNameParameter};
+            CommandParameter userPasswordParameter = new CommandParameter("Password", user.UserPassword);
+            CommandParameter userGroupParameter = new CommandParameter("UserLocalGroup", user.UserPassword);
+            List<CommandParameter> parametersList = new List<CommandParameter>() {userPasswordParameter, userNameParameter, userGroupParameter};
 
             return ReportHandler(ScriptRun(script, parametersList));
         }
