@@ -75,7 +75,7 @@ OptiConfig uses .NET 4.7.2 Framework, so make sure to have this or higher versio
 ### Installation
 There is no installation needed, OptiConfig is portable.
 
-1. Get a latest version from: https://www.mediafire.com/file/ykskgsgxyvc1pcx/OptiConfig1.0.1.1.zip/file
+1. Get a latest version from: https://github.com/Mrczarny/OptiConfig/releases or https://www.mediafire.com/folder/7g8yrzlexmhct/OptiConfig
 2. Unzip folder
 3. And run .exe file
 
@@ -136,13 +136,13 @@ Project Link: [https://github.com/Mrczarny/OptiConfig](https://github.com/Mrczar
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
-[contributors-shield]: https://img.shields.io/github/contributors/Mrczarny/OptiConfig.svg?style=for-the-badge
+[contributors-shield]: https://img.shields.io/github/contributors/Mrczarny/OptiConfig?style=for-the-badge
 [contributors-url]: https://github.com/Mrczarny/OptiConfig/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/Mrczarny/OptiConfig.svg?style=for-the-badge
+[forks-shield]: https://img.shields.io/github/forks/Mrczarny/OptiConfig?style=for-the-badge
 [forks-url]: https://github.com/Mrczarny/OptiConfig/network/members
-[stars-shield]: https://img.shields.io/github/stars/Mrczarny/OptiConfig.svg?style=for-the-badge
+[stars-shield]: https://img.shields.io/github/stars/Mrczarny/OptiConfig?style=for-the-badge
 [stars-url]: https://github.com/Mrczarny/OptiConfig/stargazers
-[issues-shield]: https://img.shields.io/github/issues/Mrczarny/OptiConfig.svg?style=for-the-badge
+[issues-shield]: https://img.shields.io/github/issues/Mrczarny/OptiConfig?style=for-the-badge
 [issues-url]: https://github.com/Mrczarny/OptiConfig/issues
-[license-shield]: https://img.shields.io/github/license/Mrczarny/OptiConfig.svg?style=for-the-badge
+[license-shield]: https://img.shields.io/github/license/Mrczarny/OptiConfig?style=for-the-badge
 [license-url]: https://github.com/Mrczarny/OptiConfig/blob/master/LICENSE.txt
