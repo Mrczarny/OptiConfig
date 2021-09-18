@@ -142,7 +142,7 @@ Project Link: [https://github.com/Mrczarny/OptiConfig](https://github.com/Mrczar
 [forks-shield]: https://img.shields.io/github/forks/Mrczarny/OptiConfig.svg?style=for-the-badge
 [forks-url]: https://github.com/Mrczarny/OptiConfig/network/members
 [stars-shield]: https://img.shields.io/github/stars/Mrczarny/OptiConfig.svg?style=for-the-badge
-[stars-url]: https://github.com/othneildrew/Mrczarny/OptiConfig/stargazers
+[stars-url]: https://github.com/Mrczarny/OptiConfig/stargazers
 [issues-shield]: https://img.shields.io/github/issues/Mrczarny/OptiConfig.svg?style=for-the-badge
 [issues-url]: https://github.com/Mrczarny/OptiConfig/issues
 [license-shield]: https://img.shields.io/github/license/Mrczarny/OptiConfig.svg?style=for-the-badge
