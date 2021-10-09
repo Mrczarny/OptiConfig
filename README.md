@@ -51,7 +51,7 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-<1.0.1 VERSION NOTE> Please be awere that OptiConfig DOES NOT ENCRYPT PASSWORDS in saved config and in process of making new users.
+~~<1.0.1 VERSION NOTE> Please be awere that OptiConfig DOES NOT ENCRYPT PASSWORDS in saved config and in process of making new users.~~
 
 OptiConfig is simple tool to easly configure some of Windows 10 settings including:
   * adding users,
