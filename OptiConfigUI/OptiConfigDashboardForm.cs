@@ -9,6 +9,8 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using OptiConfigLib;
 using OptiConfigLib.Models;
+using System.Net;
+using System.Security;
 
 
 namespace OptiConfigUI
@@ -92,7 +94,7 @@ namespace OptiConfigUI
             {
                 UserModel user = new UserModel();
                 user.UserName = userTextBox.Text;
-                user.UserPassword = passwordTextBox.Text;
+                user.UserPassword = new NetworkCredential("", passwordTextBox.Text).SecurePassword;
                 user.UserLocalGroup = userTextBox.Text;
                 user.UserDescription = descriptionTextBox.Text;
                 user.UserNeverExpires = neverUserCheckBox.Checked;
@@ -158,7 +160,6 @@ namespace OptiConfigUI
 
         private void saveConfigButton_Click(object sender, EventArgs e)
         {
-            //TODO - add in later update
             ConfigModel config = new ConfigModel();
             if (configTextBox.Text != "")
             {
@@ -181,7 +182,7 @@ namespace OptiConfigUI
                     {
                         UserModel user = new UserModel();
                         user.UserName = userTextBox.Text;
-                        user.UserPassword = passwordTextBox.Text;
+                        user.UserPassword = new NetworkCredential("", passwordTextBox.Text).SecurePassword;
                         user.UserLocalGroup = groupTextBox.Text;
                         user.UserDescription = descriptionTextBox.Text;
                         user.UserNeverExpires = neverUserCheckBox.Checked;
@@ -237,7 +238,7 @@ namespace OptiConfigUI
                     userTextBox.Text = null;
                     userTextBox.Text = config.UserConfig.UserName;
                     passwordTextBox.Text = null;
-                    passwordTextBox.Text = config.UserConfig.UserPassword;
+                    passwordTextBox.Text = new NetworkCredential("", config.UserConfig.UserPassword).Password;
                     groupTextBox.Text = null;
                     groupTextBox.Text = config.UserConfig.UserLocalGroup;
                     descriptionTextBox.Text = null;
@@ -356,5 +357,28 @@ namespace OptiConfigUI
             return output;
         }
 
+        private void descriptionTextBox_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void visibilityButton_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void visibilityButton_MouseDown(object sender, MouseEventArgs e)
+        {
+            //visibilityButton.BackColor = Color.Red; -- very good for debbuging! 
+            visibilityButton.Image = Image.FromFile(Application.StartupPath + @"\Resources\eyeYes.png");
+            passwordTextBox.UseSystemPasswordChar = false;
+        }
+
+        private void visibilityButton_MouseUp(object sender, MouseEventArgs e)
+        {
+            //visibilityButton.BackColor = Color.Transparent;
+            visibilityButton.Image = Image.FromFile(Application.StartupPath + @"\Resources\eyeNo.png");
+            passwordTextBox.UseSystemPasswordChar = true;
+        }
     }
 }

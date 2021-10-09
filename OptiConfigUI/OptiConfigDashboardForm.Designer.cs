@@ -32,6 +32,7 @@ namespace OptiConfigUI
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(OptiConfigDashboardForm));
             this.AddUserGroupBox = new System.Windows.Forms.GroupBox();
             this.descriptionLabel = new System.Windows.Forms.Label();
+            this.visibilityButton = new System.Windows.Forms.Button();
             this.groupLabel = new System.Windows.Forms.Label();
             this.passwordLabel = new System.Windows.Forms.Label();
             this.addUserButton = new System.Windows.Forms.Button();
@@ -72,6 +73,7 @@ namespace OptiConfigUI
             // AddUserGroupBox
             // 
             this.AddUserGroupBox.Controls.Add(this.descriptionLabel);
+            this.AddUserGroupBox.Controls.Add(this.visibilityButton);
             this.AddUserGroupBox.Controls.Add(this.groupLabel);
             this.AddUserGroupBox.Controls.Add(this.passwordLabel);
             this.AddUserGroupBox.Controls.Add(this.addUserButton);
@@ -81,133 +83,95 @@ namespace OptiConfigUI
             this.AddUserGroupBox.Controls.Add(this.passwordTextBox);
             this.AddUserGroupBox.Controls.Add(this.userTextBox);
             this.AddUserGroupBox.Controls.Add(this.userLabel);
-            this.AddUserGroupBox.Location = new System.Drawing.Point(28, 151);
-            this.AddUserGroupBox.Margin = new System.Windows.Forms.Padding(6);
+            resources.ApplyResources(this.AddUserGroupBox, "AddUserGroupBox");
             this.AddUserGroupBox.Name = "AddUserGroupBox";
-            this.AddUserGroupBox.Size = new System.Drawing.Size(270, 183);
-            this.AddUserGroupBox.TabIndex = 0;
             this.AddUserGroupBox.TabStop = false;
-            this.AddUserGroupBox.Text = "Add user";
             // 
             // descriptionLabel
             // 
-            this.descriptionLabel.AutoSize = true;
-            this.descriptionLabel.Location = new System.Drawing.Point(10, 101);
+            resources.ApplyResources(this.descriptionLabel, "descriptionLabel");
             this.descriptionLabel.Name = "descriptionLabel";
-            this.descriptionLabel.Size = new System.Drawing.Size(60, 13);
-            this.descriptionLabel.TabIndex = 8;
-            this.descriptionLabel.Text = "Description";
+            // 
+            // visibilityButton
+            // 
+            resources.ApplyResources(this.visibilityButton, "visibilityButton");
+            this.visibilityButton.FlatAppearance.BorderSize = 0;
+            this.visibilityButton.Image = global::OptiConfigUI.Properties.Resources.eyeNo;
+            this.visibilityButton.Name = "visibilityButton";
+            this.visibilityButton.UseVisualStyleBackColor = true;
+            this.visibilityButton.Click += new System.EventHandler(this.visibilityButton_Click);
+            this.visibilityButton.MouseDown += new System.Windows.Forms.MouseEventHandler(this.visibilityButton_MouseDown);
+            this.visibilityButton.MouseUp += new System.Windows.Forms.MouseEventHandler(this.visibilityButton_MouseUp);
             // 
             // groupLabel
             // 
-            this.groupLabel.AutoSize = true;
-            this.groupLabel.Location = new System.Drawing.Point(10, 75);
+            resources.ApplyResources(this.groupLabel, "groupLabel");
             this.groupLabel.Name = "groupLabel";
-            this.groupLabel.Size = new System.Drawing.Size(65, 13);
-            this.groupLabel.TabIndex = 6;
-            this.groupLabel.Text = "Local Group";
             // 
             // passwordLabel
             // 
-            this.passwordLabel.AutoSize = true;
-            this.passwordLabel.Location = new System.Drawing.Point(10, 49);
+            resources.ApplyResources(this.passwordLabel, "passwordLabel");
             this.passwordLabel.Name = "passwordLabel";
-            this.passwordLabel.Size = new System.Drawing.Size(53, 13);
-            this.passwordLabel.TabIndex = 1;
-            this.passwordLabel.Text = "Password";
             // 
             // addUserButton
             // 
-            this.addUserButton.Location = new System.Drawing.Point(175, 145);
+            resources.ApplyResources(this.addUserButton, "addUserButton");
             this.addUserButton.Name = "addUserButton";
-            this.addUserButton.Size = new System.Drawing.Size(85, 29);
-            this.addUserButton.TabIndex = 5;
-            this.addUserButton.Text = "Add user";
             this.addUserButton.UseVisualStyleBackColor = true;
             this.addUserButton.Click += new System.EventHandler(this.addUserButton_Click);
             // 
             // neverUserCheckBox
             // 
-            this.neverUserCheckBox.AutoSize = true;
-            this.neverUserCheckBox.Location = new System.Drawing.Point(13, 124);
+            resources.ApplyResources(this.neverUserCheckBox, "neverUserCheckBox");
             this.neverUserCheckBox.Name = "neverUserCheckBox";
-            this.neverUserCheckBox.Size = new System.Drawing.Size(109, 17);
-            this.neverUserCheckBox.TabIndex = 4;
-            this.neverUserCheckBox.Text = "User never expire";
             this.neverUserCheckBox.UseVisualStyleBackColor = true;
             // 
             // descriptionTextBox
             // 
-            this.descriptionTextBox.Location = new System.Drawing.Point(78, 98);
+            resources.ApplyResources(this.descriptionTextBox, "descriptionTextBox");
             this.descriptionTextBox.Name = "descriptionTextBox";
-            this.descriptionTextBox.Size = new System.Drawing.Size(100, 20);
-            this.descriptionTextBox.TabIndex = 3;
+            this.descriptionTextBox.TextChanged += new System.EventHandler(this.descriptionTextBox_TextChanged);
             // 
             // groupTextBox
             // 
-            this.groupTextBox.Location = new System.Drawing.Point(78, 72);
+            resources.ApplyResources(this.groupTextBox, "groupTextBox");
             this.groupTextBox.Name = "groupTextBox";
-            this.groupTextBox.Size = new System.Drawing.Size(100, 20);
-            this.groupTextBox.TabIndex = 1;
             // 
             // passwordTextBox
             // 
-            this.passwordTextBox.Location = new System.Drawing.Point(78, 46);
+            resources.ApplyResources(this.passwordTextBox, "passwordTextBox");
             this.passwordTextBox.Name = "passwordTextBox";
-            this.passwordTextBox.Size = new System.Drawing.Size(100, 20);
-            this.passwordTextBox.TabIndex = 2;
+            this.passwordTextBox.UseSystemPasswordChar = true;
             // 
             // userTextBox
             // 
-            this.userTextBox.Location = new System.Drawing.Point(78, 20);
+            resources.ApplyResources(this.userTextBox, "userTextBox");
             this.userTextBox.Name = "userTextBox";
-            this.userTextBox.Size = new System.Drawing.Size(100, 20);
-            this.userTextBox.TabIndex = 1;
             // 
             // userLabel
             // 
-            this.userLabel.AutoSize = true;
-            this.userLabel.Location = new System.Drawing.Point(10, 23);
+            resources.ApplyResources(this.userLabel, "userLabel");
             this.userLabel.Name = "userLabel";
-            this.userLabel.Size = new System.Drawing.Size(58, 13);
-            this.userLabel.TabIndex = 0;
-            this.userLabel.Text = "User name";
             // 
             // serviceTagLabel
             // 
-            this.serviceTagLabel.AutoSize = true;
-            this.serviceTagLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
-            this.serviceTagLabel.Location = new System.Drawing.Point(24, 65);
+            resources.ApplyResources(this.serviceTagLabel, "serviceTagLabel");
             this.serviceTagLabel.Name = "serviceTagLabel";
-            this.serviceTagLabel.Size = new System.Drawing.Size(92, 20);
-            this.serviceTagLabel.TabIndex = 9;
-            this.serviceTagLabel.Text = "Service Tag";
             // 
             // serviceTagTextBox
             // 
-            this.serviceTagTextBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
-            this.serviceTagTextBox.Location = new System.Drawing.Point(140, 62);
+            resources.ApplyResources(this.serviceTagTextBox, "serviceTagTextBox");
             this.serviceTagTextBox.Name = "serviceTagTextBox";
-            this.serviceTagTextBox.Size = new System.Drawing.Size(105, 26);
-            this.serviceTagTextBox.TabIndex = 10;
             // 
             // usbNameTextBox
             // 
-            this.usbNameTextBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
-            this.usbNameTextBox.Location = new System.Drawing.Point(140, 105);
+            resources.ApplyResources(this.usbNameTextBox, "usbNameTextBox");
             this.usbNameTextBox.Name = "usbNameTextBox";
-            this.usbNameTextBox.Size = new System.Drawing.Size(105, 26);
-            this.usbNameTextBox.TabIndex = 12;
             // 
             // usbNameLabel
             // 
-            this.usbNameLabel.AutoSize = true;
-            this.usbNameLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
-            this.usbNameLabel.Location = new System.Drawing.Point(24, 105);
+            resources.ApplyResources(this.usbNameLabel, "usbNameLabel");
             this.usbNameLabel.Name = "usbNameLabel";
-            this.usbNameLabel.Size = new System.Drawing.Size(84, 20);
-            this.usbNameLabel.TabIndex = 11;
-            this.usbNameLabel.Text = "Usb Name";
             // 
             // seceditGroupBox
             // 
@@ -220,194 +184,127 @@ namespace OptiConfigUI
             this.seceditGroupBox.Controls.Add(this.passwordHisSizeTextBox);
             this.seceditGroupBox.Controls.Add(this.maxPasswordAgeTextBox);
             this.seceditGroupBox.Controls.Add(this.passwordMinLengTextBox);
-            this.seceditGroupBox.Location = new System.Drawing.Point(330, 151);
+            resources.ApplyResources(this.seceditGroupBox, "seceditGroupBox");
             this.seceditGroupBox.Name = "seceditGroupBox";
-            this.seceditGroupBox.Size = new System.Drawing.Size(262, 183);
-            this.seceditGroupBox.TabIndex = 13;
             this.seceditGroupBox.TabStop = false;
-            this.seceditGroupBox.Text = "Security edit";
             // 
             // passwordComplCheckBox
             // 
-            this.passwordComplCheckBox.AutoSize = true;
-            this.passwordComplCheckBox.Location = new System.Drawing.Point(141, 26);
+            resources.ApplyResources(this.passwordComplCheckBox, "passwordComplCheckBox");
             this.passwordComplCheckBox.Name = "passwordComplCheckBox";
-            this.passwordComplCheckBox.Size = new System.Drawing.Size(15, 14);
-            this.passwordComplCheckBox.TabIndex = 19;
             this.passwordComplCheckBox.UseVisualStyleBackColor = true;
             // 
             // passwordComplLabel
             // 
-            this.passwordComplLabel.AutoSize = true;
-            this.passwordComplLabel.Location = new System.Drawing.Point(12, 26);
+            resources.ApplyResources(this.passwordComplLabel, "passwordComplLabel");
             this.passwordComplLabel.Name = "passwordComplLabel";
-            this.passwordComplLabel.Size = new System.Drawing.Size(105, 13);
-            this.passwordComplLabel.TabIndex = 18;
-            this.passwordComplLabel.Text = "Password complexity";
             // 
             // seceditSetButton
             // 
-            this.seceditSetButton.Location = new System.Drawing.Point(171, 145);
+            resources.ApplyResources(this.seceditSetButton, "seceditSetButton");
             this.seceditSetButton.Name = "seceditSetButton";
-            this.seceditSetButton.Size = new System.Drawing.Size(85, 29);
-            this.seceditSetButton.TabIndex = 17;
-            this.seceditSetButton.Text = "set config";
             this.seceditSetButton.UseVisualStyleBackColor = true;
             this.seceditSetButton.Click += new System.EventHandler(this.seceditSetButton_Click);
             // 
             // passwordHisSizeLabel
             // 
-            this.passwordHisSizeLabel.AutoSize = true;
-            this.passwordHisSizeLabel.Location = new System.Drawing.Point(12, 104);
+            resources.ApplyResources(this.passwordHisSizeLabel, "passwordHisSizeLabel");
             this.passwordHisSizeLabel.Name = "passwordHisSizeLabel";
-            this.passwordHisSizeLabel.Size = new System.Drawing.Size(107, 13);
-            this.passwordHisSizeLabel.TabIndex = 16;
-            this.passwordHisSizeLabel.Text = "Password history size";
             // 
             // maxPasswordAgeLabel
             // 
-            this.maxPasswordAgeLabel.AutoSize = true;
-            this.maxPasswordAgeLabel.Location = new System.Drawing.Point(12, 78);
+            resources.ApplyResources(this.maxPasswordAgeLabel, "maxPasswordAgeLabel");
             this.maxPasswordAgeLabel.Name = "maxPasswordAgeLabel";
-            this.maxPasswordAgeLabel.Size = new System.Drawing.Size(120, 13);
-            this.maxPasswordAgeLabel.TabIndex = 15;
-            this.maxPasswordAgeLabel.Text = "Maximum password age";
             // 
             // passwordMinLengLabel
             // 
-            this.passwordMinLengLabel.AutoSize = true;
-            this.passwordMinLengLabel.Location = new System.Drawing.Point(12, 52);
+            resources.ApplyResources(this.passwordMinLengLabel, "passwordMinLengLabel");
             this.passwordMinLengLabel.Name = "passwordMinLengLabel";
-            this.passwordMinLengLabel.Size = new System.Drawing.Size(128, 13);
-            this.passwordMinLengLabel.TabIndex = 10;
-            this.passwordMinLengLabel.Text = "Minimum password length";
             // 
             // passwordHisSizeTextBox
             // 
-            this.passwordHisSizeTextBox.Location = new System.Drawing.Point(141, 101);
+            resources.ApplyResources(this.passwordHisSizeTextBox, "passwordHisSizeTextBox");
             this.passwordHisSizeTextBox.Name = "passwordHisSizeTextBox";
-            this.passwordHisSizeTextBox.Size = new System.Drawing.Size(100, 20);
-            this.passwordHisSizeTextBox.TabIndex = 14;
             // 
             // maxPasswordAgeTextBox
             // 
-            this.maxPasswordAgeTextBox.Location = new System.Drawing.Point(141, 75);
+            resources.ApplyResources(this.maxPasswordAgeTextBox, "maxPasswordAgeTextBox");
             this.maxPasswordAgeTextBox.Name = "maxPasswordAgeTextBox";
-            this.maxPasswordAgeTextBox.Size = new System.Drawing.Size(100, 20);
-            this.maxPasswordAgeTextBox.TabIndex = 11;
             // 
             // passwordMinLengTextBox
             // 
-            this.passwordMinLengTextBox.Location = new System.Drawing.Point(141, 49);
+            resources.ApplyResources(this.passwordMinLengTextBox, "passwordMinLengTextBox");
             this.passwordMinLengTextBox.Name = "passwordMinLengTextBox";
-            this.passwordMinLengTextBox.Size = new System.Drawing.Size(100, 20);
-            this.passwordMinLengTextBox.TabIndex = 13;
             // 
             // savedConfigComboBox
             // 
-            this.savedConfigComboBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F);
+            resources.ApplyResources(this.savedConfigComboBox, "savedConfigComboBox");
             this.savedConfigComboBox.FormattingEnabled = true;
-            this.savedConfigComboBox.Location = new System.Drawing.Point(594, 65);
             this.savedConfigComboBox.Name = "savedConfigComboBox";
-            this.savedConfigComboBox.Size = new System.Drawing.Size(148, 26);
-            this.savedConfigComboBox.TabIndex = 14;
             this.savedConfigComboBox.SelectedIndexChanged += new System.EventHandler(this.savedConfigComboBox_SelectedIndexChanged);
             // 
             // savedConfigLabel
             // 
-            this.savedConfigLabel.AutoSize = true;
-            this.savedConfigLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
-            this.savedConfigLabel.Location = new System.Drawing.Point(619, 42);
+            resources.ApplyResources(this.savedConfigLabel, "savedConfigLabel");
             this.savedConfigLabel.Name = "savedConfigLabel";
-            this.savedConfigLabel.Size = new System.Drawing.Size(104, 20);
-            this.savedConfigLabel.TabIndex = 15;
-            this.savedConfigLabel.Text = "Saved Config";
             // 
             // confirmButton
             // 
-            this.confirmButton.Location = new System.Drawing.Point(614, 383);
+            resources.ApplyResources(this.confirmButton, "confirmButton");
             this.confirmButton.Name = "confirmButton";
-            this.confirmButton.Size = new System.Drawing.Size(139, 42);
-            this.confirmButton.TabIndex = 16;
-            this.confirmButton.Text = "confirm";
             this.confirmButton.UseVisualStyleBackColor = true;
             this.confirmButton.Click += new System.EventHandler(this.confirmButton_Click);
             // 
             // saveConfigButton
             // 
-            this.saveConfigButton.Location = new System.Drawing.Point(453, 383);
+            resources.ApplyResources(this.saveConfigButton, "saveConfigButton");
             this.saveConfigButton.Name = "saveConfigButton";
-            this.saveConfigButton.Size = new System.Drawing.Size(139, 42);
-            this.saveConfigButton.TabIndex = 17;
-            this.saveConfigButton.Text = "save config";
             this.saveConfigButton.UseVisualStyleBackColor = true;
             this.saveConfigButton.Click += new System.EventHandler(this.saveConfigButton_Click);
             // 
             // configTextBox
             // 
-            this.configTextBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
-            this.configTextBox.Location = new System.Drawing.Point(140, 20);
+            resources.ApplyResources(this.configTextBox, "configTextBox");
             this.configTextBox.Name = "configTextBox";
-            this.configTextBox.Size = new System.Drawing.Size(105, 26);
-            this.configTextBox.TabIndex = 19;
             // 
             // configLabel
             // 
-            this.configLabel.AutoSize = true;
-            this.configLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
-            this.configLabel.Location = new System.Drawing.Point(24, 20);
+            resources.ApplyResources(this.configLabel, "configLabel");
             this.configLabel.Name = "configLabel";
-            this.configLabel.Size = new System.Drawing.Size(101, 20);
-            this.configLabel.TabIndex = 18;
-            this.configLabel.Text = "Config Name";
             // 
             // bitlockerCheckBox
             // 
-            this.bitlockerCheckBox.AutoSize = true;
-            this.bitlockerCheckBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
-            this.bitlockerCheckBox.Location = new System.Drawing.Point(267, 62);
+            resources.ApplyResources(this.bitlockerCheckBox, "bitlockerCheckBox");
             this.bitlockerCheckBox.Name = "bitlockerCheckBox";
-            this.bitlockerCheckBox.Size = new System.Drawing.Size(93, 24);
-            this.bitlockerCheckBox.TabIndex = 20;
-            this.bitlockerCheckBox.Text = "Bitlocker ";
             this.bitlockerCheckBox.UseVisualStyleBackColor = true;
             this.bitlockerCheckBox.CheckedChanged += new System.EventHandler(this.bitlockerCheckBox_CheckedChanged);
             // 
             // addUserEnableCheckBox
             // 
-            this.addUserEnableCheckBox.AutoSize = true;
-            this.addUserEnableCheckBox.Location = new System.Drawing.Point(290, 151);
+            resources.ApplyResources(this.addUserEnableCheckBox, "addUserEnableCheckBox");
             this.addUserEnableCheckBox.Name = "addUserEnableCheckBox";
-            this.addUserEnableCheckBox.Size = new System.Drawing.Size(15, 14);
-            this.addUserEnableCheckBox.TabIndex = 20;
             this.addUserEnableCheckBox.UseVisualStyleBackColor = true;
             this.addUserEnableCheckBox.CheckedChanged += new System.EventHandler(this.addUserEnableCheckBox_CheckedChanged);
             // 
             // secpolEnableCheckBox
             // 
-            this.secpolEnableCheckBox.AutoSize = true;
-            this.secpolEnableCheckBox.Location = new System.Drawing.Point(585, 151);
+            resources.ApplyResources(this.secpolEnableCheckBox, "secpolEnableCheckBox");
             this.secpolEnableCheckBox.Name = "secpolEnableCheckBox";
-            this.secpolEnableCheckBox.Size = new System.Drawing.Size(15, 14);
-            this.secpolEnableCheckBox.TabIndex = 21;
             this.secpolEnableCheckBox.UseVisualStyleBackColor = true;
             this.secpolEnableCheckBox.CheckedChanged += new System.EventHandler(this.secpolEnableCheckBox_CheckedChanged);
             // 
             // addBitlockerButton
             // 
-            this.addBitlockerButton.Location = new System.Drawing.Point(267, 102);
+            resources.ApplyResources(this.addBitlockerButton, "addBitlockerButton");
             this.addBitlockerButton.Name = "addBitlockerButton";
-            this.addBitlockerButton.Size = new System.Drawing.Size(85, 29);
-            this.addBitlockerButton.TabIndex = 22;
-            this.addBitlockerButton.Text = "Add bitlocker";
             this.addBitlockerButton.UseVisualStyleBackColor = true;
             this.addBitlockerButton.Click += new System.EventHandler(this.addBitlockerButton_Click);
             // 
             // OptiConfigDashboardForm
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            resources.ApplyResources(this, "$this");
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(765, 437);
+            this.AutoValidate = System.Windows.Forms.AutoValidate.EnablePreventFocusChange;
             this.Controls.Add(this.addBitlockerButton);
             this.Controls.Add(this.secpolEnableCheckBox);
             this.Controls.Add(this.addUserEnableCheckBox);
@@ -424,9 +321,8 @@ namespace OptiConfigUI
             this.Controls.Add(this.serviceTagTextBox);
             this.Controls.Add(this.serviceTagLabel);
             this.Controls.Add(this.AddUserGroupBox);
-            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.Name = "OptiConfigDashboardForm";
-            this.Text = "OptiConfig";
             this.Load += new System.EventHandler(this.OptiConfigDashboardForm_Load);
             this.AddUserGroupBox.ResumeLayout(false);
             this.AddUserGroupBox.PerformLayout();
@@ -474,6 +370,7 @@ namespace OptiConfigUI
         private System.Windows.Forms.CheckBox addUserEnableCheckBox;
         private System.Windows.Forms.CheckBox secpolEnableCheckBox;
         private System.Windows.Forms.Button addBitlockerButton;
+        private System.Windows.Forms.Button visibilityButton;
     }
 }
 
