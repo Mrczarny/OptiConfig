@@ -117,7 +117,1164 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="&gt;&gt;descriptionLabel.Name" xml:space="preserve">
+    <value>descriptionLabel</value>
+  </data>
+  <data name="&gt;&gt;descriptionLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;descriptionLabel.Parent" xml:space="preserve">
+    <value>AddUserGroupBox</value>
+  </data>
+  <data name="&gt;&gt;descriptionLabel.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;visibilityButton.Name" xml:space="preserve">
+    <value>visibilityButton</value>
+  </data>
+  <data name="&gt;&gt;visibilityButton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;visibilityButton.Parent" xml:space="preserve">
+    <value>AddUserGroupBox</value>
+  </data>
+  <data name="&gt;&gt;visibilityButton.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;groupLabel.Name" xml:space="preserve">
+    <value>groupLabel</value>
+  </data>
+  <data name="&gt;&gt;groupLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;groupLabel.Parent" xml:space="preserve">
+    <value>AddUserGroupBox</value>
+  </data>
+  <data name="&gt;&gt;groupLabel.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;passwordLabel.Name" xml:space="preserve">
+    <value>passwordLabel</value>
+  </data>
+  <data name="&gt;&gt;passwordLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;passwordLabel.Parent" xml:space="preserve">
+    <value>AddUserGroupBox</value>
+  </data>
+  <data name="&gt;&gt;passwordLabel.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;addUserButton.Name" xml:space="preserve">
+    <value>addUserButton</value>
+  </data>
+  <data name="&gt;&gt;addUserButton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;addUserButton.Parent" xml:space="preserve">
+    <value>AddUserGroupBox</value>
+  </data>
+  <data name="&gt;&gt;addUserButton.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;neverUserCheckBox.Name" xml:space="preserve">
+    <value>neverUserCheckBox</value>
+  </data>
+  <data name="&gt;&gt;neverUserCheckBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;neverUserCheckBox.Parent" xml:space="preserve">
+    <value>AddUserGroupBox</value>
+  </data>
+  <data name="&gt;&gt;neverUserCheckBox.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;descriptionTextBox.Name" xml:space="preserve">
+    <value>descriptionTextBox</value>
+  </data>
+  <data name="&gt;&gt;descriptionTextBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;descriptionTextBox.Parent" xml:space="preserve">
+    <value>AddUserGroupBox</value>
+  </data>
+  <data name="&gt;&gt;descriptionTextBox.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;groupTextBox.Name" xml:space="preserve">
+    <value>groupTextBox</value>
+  </data>
+  <data name="&gt;&gt;groupTextBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;groupTextBox.Parent" xml:space="preserve">
+    <value>AddUserGroupBox</value>
+  </data>
+  <data name="&gt;&gt;groupTextBox.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="&gt;&gt;passwordTextBox.Name" xml:space="preserve">
+    <value>passwordTextBox</value>
+  </data>
+  <data name="&gt;&gt;passwordTextBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;passwordTextBox.Parent" xml:space="preserve">
+    <value>AddUserGroupBox</value>
+  </data>
+  <data name="&gt;&gt;passwordTextBox.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="&gt;&gt;userTextBox.Name" xml:space="preserve">
+    <value>userTextBox</value>
+  </data>
+  <data name="&gt;&gt;userTextBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;userTextBox.Parent" xml:space="preserve">
+    <value>AddUserGroupBox</value>
+  </data>
+  <data name="&gt;&gt;userTextBox.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="&gt;&gt;userLabel.Name" xml:space="preserve">
+    <value>userLabel</value>
+  </data>
+  <data name="&gt;&gt;userLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;userLabel.Parent" xml:space="preserve">
+    <value>AddUserGroupBox</value>
+  </data>
+  <data name="&gt;&gt;userLabel.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="AddUserGroupBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>28, 151</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="AddUserGroupBox.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>6, 6, 6, 6</value>
+  </data>
+  <data name="AddUserGroupBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>270, 183</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="AddUserGroupBox.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="AddUserGroupBox.Text" xml:space="preserve">
+    <value>Add user</value>
+  </data>
+  <data name="&gt;&gt;AddUserGroupBox.Name" xml:space="preserve">
+    <value>AddUserGroupBox</value>
+  </data>
+  <data name="&gt;&gt;AddUserGroupBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;AddUserGroupBox.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;AddUserGroupBox.ZOrder" xml:space="preserve">
+    <value>15</value>
+  </data>
+  <data name="descriptionLabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="descriptionLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>10, 101</value>
+  </data>
+  <data name="descriptionLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>60, 13</value>
+  </data>
+  <data name="descriptionLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="descriptionLabel.Text" xml:space="preserve">
+    <value>Description</value>
+  </data>
+  <data name="&gt;&gt;descriptionLabel.Name" xml:space="preserve">
+    <value>descriptionLabel</value>
+  </data>
+  <data name="&gt;&gt;descriptionLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;descriptionLabel.Parent" xml:space="preserve">
+    <value>AddUserGroupBox</value>
+  </data>
+  <data name="&gt;&gt;descriptionLabel.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="visibilityButton.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Zoom</value>
+  </data>
+  <data name="visibilityButton.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="visibilityButton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>184, 46</value>
+  </data>
+  <data name="visibilityButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>33, 21</value>
+  </data>
+  <data name="visibilityButton.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="&gt;&gt;visibilityButton.Name" xml:space="preserve">
+    <value>visibilityButton</value>
+  </data>
+  <data name="&gt;&gt;visibilityButton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;visibilityButton.Parent" xml:space="preserve">
+    <value>AddUserGroupBox</value>
+  </data>
+  <data name="&gt;&gt;visibilityButton.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="groupLabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="groupLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>10, 75</value>
+  </data>
+  <data name="groupLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>65, 13</value>
+  </data>
+  <data name="groupLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="groupLabel.Text" xml:space="preserve">
+    <value>Local Group</value>
+  </data>
+  <data name="&gt;&gt;groupLabel.Name" xml:space="preserve">
+    <value>groupLabel</value>
+  </data>
+  <data name="&gt;&gt;groupLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;groupLabel.Parent" xml:space="preserve">
+    <value>AddUserGroupBox</value>
+  </data>
+  <data name="&gt;&gt;groupLabel.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="passwordLabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="passwordLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>10, 49</value>
+  </data>
+  <data name="passwordLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>53, 13</value>
+  </data>
+  <data name="passwordLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="passwordLabel.Text" xml:space="preserve">
+    <value>Password</value>
+  </data>
+  <data name="&gt;&gt;passwordLabel.Name" xml:space="preserve">
+    <value>passwordLabel</value>
+  </data>
+  <data name="&gt;&gt;passwordLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;passwordLabel.Parent" xml:space="preserve">
+    <value>AddUserGroupBox</value>
+  </data>
+  <data name="&gt;&gt;passwordLabel.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="addUserButton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>175, 145</value>
+  </data>
+  <data name="addUserButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>85, 29</value>
+  </data>
+  <data name="addUserButton.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="addUserButton.Text" xml:space="preserve">
+    <value>Add user</value>
+  </data>
+  <data name="&gt;&gt;addUserButton.Name" xml:space="preserve">
+    <value>addUserButton</value>
+  </data>
+  <data name="&gt;&gt;addUserButton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;addUserButton.Parent" xml:space="preserve">
+    <value>AddUserGroupBox</value>
+  </data>
+  <data name="&gt;&gt;addUserButton.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="neverUserCheckBox.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="neverUserCheckBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>13, 124</value>
+  </data>
+  <data name="neverUserCheckBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>109, 17</value>
+  </data>
+  <data name="neverUserCheckBox.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="neverUserCheckBox.Text" xml:space="preserve">
+    <value>User never expire</value>
+  </data>
+  <data name="&gt;&gt;neverUserCheckBox.Name" xml:space="preserve">
+    <value>neverUserCheckBox</value>
+  </data>
+  <data name="&gt;&gt;neverUserCheckBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;neverUserCheckBox.Parent" xml:space="preserve">
+    <value>AddUserGroupBox</value>
+  </data>
+  <data name="&gt;&gt;neverUserCheckBox.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="descriptionTextBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>78, 98</value>
+  </data>
+  <data name="descriptionTextBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 20</value>
+  </data>
+  <data name="descriptionTextBox.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;descriptionTextBox.Name" xml:space="preserve">
+    <value>descriptionTextBox</value>
+  </data>
+  <data name="&gt;&gt;descriptionTextBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;descriptionTextBox.Parent" xml:space="preserve">
+    <value>AddUserGroupBox</value>
+  </data>
+  <data name="&gt;&gt;descriptionTextBox.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="groupTextBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>78, 72</value>
+  </data>
+  <data name="groupTextBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 20</value>
+  </data>
+  <data name="groupTextBox.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;groupTextBox.Name" xml:space="preserve">
+    <value>groupTextBox</value>
+  </data>
+  <data name="&gt;&gt;groupTextBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;groupTextBox.Parent" xml:space="preserve">
+    <value>AddUserGroupBox</value>
+  </data>
+  <data name="&gt;&gt;groupTextBox.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="passwordTextBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>78, 46</value>
+  </data>
+  <data name="passwordTextBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 20</value>
+  </data>
+  <data name="passwordTextBox.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;passwordTextBox.Name" xml:space="preserve">
+    <value>passwordTextBox</value>
+  </data>
+  <data name="&gt;&gt;passwordTextBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;passwordTextBox.Parent" xml:space="preserve">
+    <value>AddUserGroupBox</value>
+  </data>
+  <data name="&gt;&gt;passwordTextBox.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="userTextBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>78, 20</value>
+  </data>
+  <data name="userTextBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 20</value>
+  </data>
+  <data name="userTextBox.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;userTextBox.Name" xml:space="preserve">
+    <value>userTextBox</value>
+  </data>
+  <data name="&gt;&gt;userTextBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;userTextBox.Parent" xml:space="preserve">
+    <value>AddUserGroupBox</value>
+  </data>
+  <data name="&gt;&gt;userTextBox.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="userLabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="userLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>10, 23</value>
+  </data>
+  <data name="userLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>58, 13</value>
+  </data>
+  <data name="userLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="userLabel.Text" xml:space="preserve">
+    <value>User name</value>
+  </data>
+  <data name="&gt;&gt;userLabel.Name" xml:space="preserve">
+    <value>userLabel</value>
+  </data>
+  <data name="&gt;&gt;userLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;userLabel.Parent" xml:space="preserve">
+    <value>AddUserGroupBox</value>
+  </data>
+  <data name="&gt;&gt;userLabel.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="serviceTagLabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="serviceTagLabel.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 12pt</value>
+  </data>
+  <data name="serviceTagLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>24, 65</value>
+  </data>
+  <data name="serviceTagLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>92, 20</value>
+  </data>
+  <data name="serviceTagLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="serviceTagLabel.Text" xml:space="preserve">
+    <value>Service Tag</value>
+  </data>
+  <data name="&gt;&gt;serviceTagLabel.Name" xml:space="preserve">
+    <value>serviceTagLabel</value>
+  </data>
+  <data name="&gt;&gt;serviceTagLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;serviceTagLabel.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;serviceTagLabel.ZOrder" xml:space="preserve">
+    <value>14</value>
+  </data>
+  <data name="serviceTagTextBox.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 12pt</value>
+  </data>
+  <data name="serviceTagTextBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>140, 62</value>
+  </data>
+  <data name="serviceTagTextBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>105, 26</value>
+  </data>
+  <data name="serviceTagTextBox.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="&gt;&gt;serviceTagTextBox.Name" xml:space="preserve">
+    <value>serviceTagTextBox</value>
+  </data>
+  <data name="&gt;&gt;serviceTagTextBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;serviceTagTextBox.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;serviceTagTextBox.ZOrder" xml:space="preserve">
+    <value>13</value>
+  </data>
+  <data name="usbNameTextBox.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 12pt</value>
+  </data>
+  <data name="usbNameTextBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>140, 105</value>
+  </data>
+  <data name="usbNameTextBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>105, 26</value>
+  </data>
+  <data name="usbNameTextBox.TabIndex" type="System.Int32, mscorlib">
+    <value>12</value>
+  </data>
+  <data name="&gt;&gt;usbNameTextBox.Name" xml:space="preserve">
+    <value>usbNameTextBox</value>
+  </data>
+  <data name="&gt;&gt;usbNameTextBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;usbNameTextBox.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;usbNameTextBox.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="usbNameLabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="usbNameLabel.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 12pt</value>
+  </data>
+  <data name="usbNameLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>24, 105</value>
+  </data>
+  <data name="usbNameLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>84, 20</value>
+  </data>
+  <data name="usbNameLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="usbNameLabel.Text" xml:space="preserve">
+    <value>Usb Name</value>
+  </data>
+  <data name="&gt;&gt;usbNameLabel.Name" xml:space="preserve">
+    <value>usbNameLabel</value>
+  </data>
+  <data name="&gt;&gt;usbNameLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;usbNameLabel.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;usbNameLabel.ZOrder" xml:space="preserve">
+    <value>12</value>
+  </data>
+  <data name="&gt;&gt;passwordComplCheckBox.Name" xml:space="preserve">
+    <value>passwordComplCheckBox</value>
+  </data>
+  <data name="&gt;&gt;passwordComplCheckBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;passwordComplCheckBox.Parent" xml:space="preserve">
+    <value>seceditGroupBox</value>
+  </data>
+  <data name="&gt;&gt;passwordComplCheckBox.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;passwordComplLabel.Name" xml:space="preserve">
+    <value>passwordComplLabel</value>
+  </data>
+  <data name="&gt;&gt;passwordComplLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;passwordComplLabel.Parent" xml:space="preserve">
+    <value>seceditGroupBox</value>
+  </data>
+  <data name="&gt;&gt;passwordComplLabel.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;seceditSetButton.Name" xml:space="preserve">
+    <value>seceditSetButton</value>
+  </data>
+  <data name="&gt;&gt;seceditSetButton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;seceditSetButton.Parent" xml:space="preserve">
+    <value>seceditGroupBox</value>
+  </data>
+  <data name="&gt;&gt;seceditSetButton.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;passwordHisSizeLabel.Name" xml:space="preserve">
+    <value>passwordHisSizeLabel</value>
+  </data>
+  <data name="&gt;&gt;passwordHisSizeLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;passwordHisSizeLabel.Parent" xml:space="preserve">
+    <value>seceditGroupBox</value>
+  </data>
+  <data name="&gt;&gt;passwordHisSizeLabel.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;maxPasswordAgeLabel.Name" xml:space="preserve">
+    <value>maxPasswordAgeLabel</value>
+  </data>
+  <data name="&gt;&gt;maxPasswordAgeLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;maxPasswordAgeLabel.Parent" xml:space="preserve">
+    <value>seceditGroupBox</value>
+  </data>
+  <data name="&gt;&gt;maxPasswordAgeLabel.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;passwordMinLengLabel.Name" xml:space="preserve">
+    <value>passwordMinLengLabel</value>
+  </data>
+  <data name="&gt;&gt;passwordMinLengLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;passwordMinLengLabel.Parent" xml:space="preserve">
+    <value>seceditGroupBox</value>
+  </data>
+  <data name="&gt;&gt;passwordMinLengLabel.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;passwordHisSizeTextBox.Name" xml:space="preserve">
+    <value>passwordHisSizeTextBox</value>
+  </data>
+  <data name="&gt;&gt;passwordHisSizeTextBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;passwordHisSizeTextBox.Parent" xml:space="preserve">
+    <value>seceditGroupBox</value>
+  </data>
+  <data name="&gt;&gt;passwordHisSizeTextBox.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;maxPasswordAgeTextBox.Name" xml:space="preserve">
+    <value>maxPasswordAgeTextBox</value>
+  </data>
+  <data name="&gt;&gt;maxPasswordAgeTextBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;maxPasswordAgeTextBox.Parent" xml:space="preserve">
+    <value>seceditGroupBox</value>
+  </data>
+  <data name="&gt;&gt;maxPasswordAgeTextBox.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="&gt;&gt;passwordMinLengTextBox.Name" xml:space="preserve">
+    <value>passwordMinLengTextBox</value>
+  </data>
+  <data name="&gt;&gt;passwordMinLengTextBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;passwordMinLengTextBox.Parent" xml:space="preserve">
+    <value>seceditGroupBox</value>
+  </data>
+  <data name="&gt;&gt;passwordMinLengTextBox.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="seceditGroupBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>330, 151</value>
+  </data>
+  <data name="seceditGroupBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>262, 183</value>
+  </data>
+  <data name="seceditGroupBox.TabIndex" type="System.Int32, mscorlib">
+    <value>13</value>
+  </data>
+  <data name="seceditGroupBox.Text" xml:space="preserve">
+    <value>Security edit</value>
+  </data>
+  <data name="&gt;&gt;seceditGroupBox.Name" xml:space="preserve">
+    <value>seceditGroupBox</value>
+  </data>
+  <data name="&gt;&gt;seceditGroupBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;seceditGroupBox.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;seceditGroupBox.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="passwordComplCheckBox.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="passwordComplCheckBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>141, 26</value>
+  </data>
+  <data name="passwordComplCheckBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>15, 14</value>
+  </data>
+  <data name="passwordComplCheckBox.TabIndex" type="System.Int32, mscorlib">
+    <value>19</value>
+  </data>
+  <data name="&gt;&gt;passwordComplCheckBox.Name" xml:space="preserve">
+    <value>passwordComplCheckBox</value>
+  </data>
+  <data name="&gt;&gt;passwordComplCheckBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;passwordComplCheckBox.Parent" xml:space="preserve">
+    <value>seceditGroupBox</value>
+  </data>
+  <data name="&gt;&gt;passwordComplCheckBox.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="passwordComplLabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="passwordComplLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 26</value>
+  </data>
+  <data name="passwordComplLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>105, 13</value>
+  </data>
+  <data name="passwordComplLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>18</value>
+  </data>
+  <data name="passwordComplLabel.Text" xml:space="preserve">
+    <value>Password complexity</value>
+  </data>
+  <data name="&gt;&gt;passwordComplLabel.Name" xml:space="preserve">
+    <value>passwordComplLabel</value>
+  </data>
+  <data name="&gt;&gt;passwordComplLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;passwordComplLabel.Parent" xml:space="preserve">
+    <value>seceditGroupBox</value>
+  </data>
+  <data name="&gt;&gt;passwordComplLabel.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="seceditSetButton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>171, 145</value>
+  </data>
+  <data name="seceditSetButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>85, 29</value>
+  </data>
+  <data name="seceditSetButton.TabIndex" type="System.Int32, mscorlib">
+    <value>17</value>
+  </data>
+  <data name="seceditSetButton.Text" xml:space="preserve">
+    <value>set config</value>
+  </data>
+  <data name="&gt;&gt;seceditSetButton.Name" xml:space="preserve">
+    <value>seceditSetButton</value>
+  </data>
+  <data name="&gt;&gt;seceditSetButton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;seceditSetButton.Parent" xml:space="preserve">
+    <value>seceditGroupBox</value>
+  </data>
+  <data name="&gt;&gt;seceditSetButton.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="passwordHisSizeLabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="passwordHisSizeLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 104</value>
+  </data>
+  <data name="passwordHisSizeLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>107, 13</value>
+  </data>
+  <data name="passwordHisSizeLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>16</value>
+  </data>
+  <data name="passwordHisSizeLabel.Text" xml:space="preserve">
+    <value>Password history size</value>
+  </data>
+  <data name="&gt;&gt;passwordHisSizeLabel.Name" xml:space="preserve">
+    <value>passwordHisSizeLabel</value>
+  </data>
+  <data name="&gt;&gt;passwordHisSizeLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;passwordHisSizeLabel.Parent" xml:space="preserve">
+    <value>seceditGroupBox</value>
+  </data>
+  <data name="&gt;&gt;passwordHisSizeLabel.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="maxPasswordAgeLabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="maxPasswordAgeLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 78</value>
+  </data>
+  <data name="maxPasswordAgeLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>120, 13</value>
+  </data>
+  <data name="maxPasswordAgeLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>15</value>
+  </data>
+  <data name="maxPasswordAgeLabel.Text" xml:space="preserve">
+    <value>Maximum password age</value>
+  </data>
+  <data name="&gt;&gt;maxPasswordAgeLabel.Name" xml:space="preserve">
+    <value>maxPasswordAgeLabel</value>
+  </data>
+  <data name="&gt;&gt;maxPasswordAgeLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;maxPasswordAgeLabel.Parent" xml:space="preserve">
+    <value>seceditGroupBox</value>
+  </data>
+  <data name="&gt;&gt;maxPasswordAgeLabel.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="passwordMinLengLabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="passwordMinLengLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 52</value>
+  </data>
+  <data name="passwordMinLengLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>128, 13</value>
+  </data>
+  <data name="passwordMinLengLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="passwordMinLengLabel.Text" xml:space="preserve">
+    <value>Minimum password length</value>
+  </data>
+  <data name="&gt;&gt;passwordMinLengLabel.Name" xml:space="preserve">
+    <value>passwordMinLengLabel</value>
+  </data>
+  <data name="&gt;&gt;passwordMinLengLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;passwordMinLengLabel.Parent" xml:space="preserve">
+    <value>seceditGroupBox</value>
+  </data>
+  <data name="&gt;&gt;passwordMinLengLabel.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="passwordHisSizeTextBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>141, 101</value>
+  </data>
+  <data name="passwordHisSizeTextBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 20</value>
+  </data>
+  <data name="passwordHisSizeTextBox.TabIndex" type="System.Int32, mscorlib">
+    <value>14</value>
+  </data>
+  <data name="&gt;&gt;passwordHisSizeTextBox.Name" xml:space="preserve">
+    <value>passwordHisSizeTextBox</value>
+  </data>
+  <data name="&gt;&gt;passwordHisSizeTextBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;passwordHisSizeTextBox.Parent" xml:space="preserve">
+    <value>seceditGroupBox</value>
+  </data>
+  <data name="&gt;&gt;passwordHisSizeTextBox.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="maxPasswordAgeTextBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>141, 75</value>
+  </data>
+  <data name="maxPasswordAgeTextBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 20</value>
+  </data>
+  <data name="maxPasswordAgeTextBox.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="&gt;&gt;maxPasswordAgeTextBox.Name" xml:space="preserve">
+    <value>maxPasswordAgeTextBox</value>
+  </data>
+  <data name="&gt;&gt;maxPasswordAgeTextBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;maxPasswordAgeTextBox.Parent" xml:space="preserve">
+    <value>seceditGroupBox</value>
+  </data>
+  <data name="&gt;&gt;maxPasswordAgeTextBox.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="passwordMinLengTextBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>141, 49</value>
+  </data>
+  <data name="passwordMinLengTextBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 20</value>
+  </data>
+  <data name="passwordMinLengTextBox.TabIndex" type="System.Int32, mscorlib">
+    <value>13</value>
+  </data>
+  <data name="&gt;&gt;passwordMinLengTextBox.Name" xml:space="preserve">
+    <value>passwordMinLengTextBox</value>
+  </data>
+  <data name="&gt;&gt;passwordMinLengTextBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;passwordMinLengTextBox.Parent" xml:space="preserve">
+    <value>seceditGroupBox</value>
+  </data>
+  <data name="&gt;&gt;passwordMinLengTextBox.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="savedConfigComboBox.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 11pt</value>
+  </data>
+  <data name="savedConfigComboBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>594, 65</value>
+  </data>
+  <data name="savedConfigComboBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>148, 26</value>
+  </data>
+  <data name="savedConfigComboBox.TabIndex" type="System.Int32, mscorlib">
+    <value>14</value>
+  </data>
+  <data name="&gt;&gt;savedConfigComboBox.Name" xml:space="preserve">
+    <value>savedConfigComboBox</value>
+  </data>
+  <data name="&gt;&gt;savedConfigComboBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;savedConfigComboBox.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;savedConfigComboBox.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="savedConfigLabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="savedConfigLabel.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 12pt</value>
+  </data>
+  <data name="savedConfigLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>619, 42</value>
+  </data>
+  <data name="savedConfigLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>104, 20</value>
+  </data>
+  <data name="savedConfigLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>15</value>
+  </data>
+  <data name="savedConfigLabel.Text" xml:space="preserve">
+    <value>Saved Config</value>
+  </data>
+  <data name="&gt;&gt;savedConfigLabel.Name" xml:space="preserve">
+    <value>savedConfigLabel</value>
+  </data>
+  <data name="&gt;&gt;savedConfigLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;savedConfigLabel.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;savedConfigLabel.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="confirmButton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>614, 383</value>
+  </data>
+  <data name="confirmButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>139, 42</value>
+  </data>
+  <data name="confirmButton.TabIndex" type="System.Int32, mscorlib">
+    <value>16</value>
+  </data>
+  <data name="confirmButton.Text" xml:space="preserve">
+    <value>confirm</value>
+  </data>
+  <data name="&gt;&gt;confirmButton.Name" xml:space="preserve">
+    <value>confirmButton</value>
+  </data>
+  <data name="&gt;&gt;confirmButton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;confirmButton.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;confirmButton.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="saveConfigButton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>453, 383</value>
+  </data>
+  <data name="saveConfigButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>139, 42</value>
+  </data>
+  <data name="saveConfigButton.TabIndex" type="System.Int32, mscorlib">
+    <value>17</value>
+  </data>
+  <data name="saveConfigButton.Text" xml:space="preserve">
+    <value>save config</value>
+  </data>
+  <data name="&gt;&gt;saveConfigButton.Name" xml:space="preserve">
+    <value>saveConfigButton</value>
+  </data>
+  <data name="&gt;&gt;saveConfigButton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;saveConfigButton.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;saveConfigButton.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="configTextBox.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 12pt</value>
+  </data>
+  <data name="configTextBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>140, 20</value>
+  </data>
+  <data name="configTextBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>105, 26</value>
+  </data>
+  <data name="configTextBox.TabIndex" type="System.Int32, mscorlib">
+    <value>19</value>
+  </data>
+  <data name="&gt;&gt;configTextBox.Name" xml:space="preserve">
+    <value>configTextBox</value>
+  </data>
+  <data name="&gt;&gt;configTextBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;configTextBox.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;configTextBox.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="configLabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="configLabel.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 12pt</value>
+  </data>
+  <data name="configLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>24, 20</value>
+  </data>
+  <data name="configLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>101, 20</value>
+  </data>
+  <data name="configLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>18</value>
+  </data>
+  <data name="configLabel.Text" xml:space="preserve">
+    <value>Config Name</value>
+  </data>
+  <data name="&gt;&gt;configLabel.Name" xml:space="preserve">
+    <value>configLabel</value>
+  </data>
+  <data name="&gt;&gt;configLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;configLabel.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;configLabel.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="bitlockerCheckBox.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="bitlockerCheckBox.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 12pt</value>
+  </data>
+  <data name="bitlockerCheckBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>267, 62</value>
+  </data>
+  <data name="bitlockerCheckBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>93, 24</value>
+  </data>
+  <data name="bitlockerCheckBox.TabIndex" type="System.Int32, mscorlib">
+    <value>20</value>
+  </data>
+  <data name="bitlockerCheckBox.Text" xml:space="preserve">
+    <value>Bitlocker </value>
+  </data>
+  <data name="&gt;&gt;bitlockerCheckBox.Name" xml:space="preserve">
+    <value>bitlockerCheckBox</value>
+  </data>
+  <data name="&gt;&gt;bitlockerCheckBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;bitlockerCheckBox.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;bitlockerCheckBox.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="addUserEnableCheckBox.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="addUserEnableCheckBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>290, 151</value>
+  </data>
+  <data name="addUserEnableCheckBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>15, 14</value>
+  </data>
+  <data name="addUserEnableCheckBox.TabIndex" type="System.Int32, mscorlib">
+    <value>20</value>
+  </data>
+  <data name="&gt;&gt;addUserEnableCheckBox.Name" xml:space="preserve">
+    <value>addUserEnableCheckBox</value>
+  </data>
+  <data name="&gt;&gt;addUserEnableCheckBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;addUserEnableCheckBox.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;addUserEnableCheckBox.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="secpolEnableCheckBox.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="secpolEnableCheckBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>585, 151</value>
+  </data>
+  <data name="secpolEnableCheckBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>15, 14</value>
+  </data>
+  <data name="secpolEnableCheckBox.TabIndex" type="System.Int32, mscorlib">
+    <value>21</value>
+  </data>
+  <data name="&gt;&gt;secpolEnableCheckBox.Name" xml:space="preserve">
+    <value>secpolEnableCheckBox</value>
+  </data>
+  <data name="&gt;&gt;secpolEnableCheckBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;secpolEnableCheckBox.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;secpolEnableCheckBox.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="addBitlockerButton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>267, 102</value>
+  </data>
+  <data name="addBitlockerButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>85, 29</value>
+  </data>
+  <data name="addBitlockerButton.TabIndex" type="System.Int32, mscorlib">
+    <value>22</value>
+  </data>
+  <data name="addBitlockerButton.Text" xml:space="preserve">
+    <value>Add bitlocker</value>
+  </data>
+  <data name="&gt;&gt;addBitlockerButton.Name" xml:space="preserve">
+    <value>addBitlockerButton</value>
+  </data>
+  <data name="&gt;&gt;addBitlockerButton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;addBitlockerButton.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;addBitlockerButton.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>6, 13</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>765, 437</value>
+  </data>
   <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         AAABAAYAEBAAAAEAIABoBAAAZgAAAAAAAAABACAAey4AAM4EAAAwMAAAAQAgAKglAABJMwAAICAAAAEA
@@ -1981,5 +3138,14 @@
         P/wPwD/8A/A//AcAD/AA4D/8AgAP8ABAP/4AAAfgAAB//wAEB+AgAP//gA8H4PAB///APwfg/AP//+B/
         B+D+B/////8DwP///////4PB////////gAH///////+AAf///////4AB////////wAP///8=
 </value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>OptiConfig</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>OptiConfigDashboardForm</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
 </root>

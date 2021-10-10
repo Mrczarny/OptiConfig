@@ -1,25 +1,26 @@
 [
   {
     "Id": 0,
-    "Name": "sample config",
+    "Name": "sample",
     "BitlockerConfig": null,
     "SecpolConfig": {
-      "PasswordComplexity": true,
-      "MinimumPasswordLength": 8,
-      "MaximumPasswordAge": 31,
-      "PasswordHistorySize": 9
+      "PasswordComplexity": false,
+      "MinimumPasswordLength": 0,
+      "MaximumPasswordAge": 0,
+      "PasswordHistorySize": 0
     },
     "UserConfig": {
-      "UserName": "sample name",
-      "UserPassword": null,
-      "UserLocalGroup": "users",
+      "UserName": "sample",
+      "UserPassword": { "Length": 6 },
+      "UserPasswordHashed": "91NaYOsSddaId7iZtGPGqDYt8PjTLvkrvzq7p5P8LFwMOdxkLlu5l+8efcwzN9uTSs3H3xRt9W6EIna5MlkH4X7iIfNtre+/WjLwOMmzbrzRkmhN8+/xC21Qfr+VYTUq",
+      "UserLocalGroup": "sample",
       "UserNeverExpires": false,
       "UserExpires": "0001-01-01T00:00:00",
       "UserPasswordNeverExpires": false,
       "UserCantChangePassword": false,
       "UserFullName": null,
       "UserIsDisabled": false,
-      "UserDescription": ""
+      "UserDescription": "sample"
     }
   }
 ]

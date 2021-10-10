@@ -6,6 +6,9 @@ using System.Threading.Tasks;
 using OptiConfigLib.Models;
 using Newtonsoft.Json;
 using System.IO;
+using System.Security.Cryptography;
+using System.Net;
+using System.Security;
 
 namespace OptiConfigLib
 {
@@ -15,9 +18,14 @@ namespace OptiConfigLib
         //private string JsonFilePath = @"C:\Users\kuba\Desktop\projects\C#\OptiConfig\JsonTest\test.json";
         public List<ConfigModel> ConfigModelToJson(ConfigModel model)
         {
-            string jsonFile = File.ReadAllText(JsonFilePath);
-            List<ConfigModel> allConfigs = new List<ConfigModel>();
-            allConfigs = JsonConvert.DeserializeObject<List<ConfigModel>>(jsonFile);
+            if (model.UserConfig.UserPassword.Length != 0 )
+            {
+                if (model.UserConfig.UserPasswordHashed == null)
+                {
+                    model.UserConfig.UserPasswordHashed = EncryptionProcessor.Encrypt(model.UserConfig.UserPassword, new NetworkCredential("", "pppppppp").SecurePassword); //TODO - make this better!
+                } 
+            }
+            List<ConfigModel> allConfigs = GetConfigModels();
             int HighestId = 0;
 
             if (allConfigs.Count > 0)
@@ -35,10 +43,17 @@ namespace OptiConfigLib
         public List<ConfigModel> GetConfigModels()
         {
             string jsonFile = File.ReadAllText(JsonFilePath);
-            List<ConfigModel> allConfigs = new List<ConfigModel>();
-            allConfigs = JsonConvert.DeserializeObject<List<ConfigModel>>(jsonFile);
+            List<ConfigModel> allConfigs = JsonConvert.DeserializeObject<List<ConfigModel>>(jsonFile);
+            foreach (ConfigModel model in allConfigs)
+            {
+                if (model.UserConfig.UserPasswordHashed != null)
+                {
+                    model.UserConfig.UserPassword = EncryptionProcessor.Decrypt(model.UserConfig.UserPasswordHashed, new NetworkCredential("", "pppppppp").SecurePassword);
+                }
+            }
             return allConfigs;
         }
+
 
     }
 }

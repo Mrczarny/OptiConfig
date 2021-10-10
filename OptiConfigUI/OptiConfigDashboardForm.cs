@@ -160,7 +160,6 @@ namespace OptiConfigUI
 
         private void saveConfigButton_Click(object sender, EventArgs e)
         {
-            //TODO - add in later update
             ConfigModel config = new ConfigModel();
             if (configTextBox.Text != "")
             {
