@@ -32,6 +32,7 @@ namespace OptiConfigUI
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(OptiConfigDashboardForm));
             this.AddUserGroupBox = new System.Windows.Forms.GroupBox();
             this.descriptionLabel = new System.Windows.Forms.Label();
+            this.visibilityButton = new System.Windows.Forms.Button();
             this.groupLabel = new System.Windows.Forms.Label();
             this.passwordLabel = new System.Windows.Forms.Label();
             this.addUserButton = new System.Windows.Forms.Button();
@@ -65,6 +66,7 @@ namespace OptiConfigUI
             this.addUserEnableCheckBox = new System.Windows.Forms.CheckBox();
             this.secpolEnableCheckBox = new System.Windows.Forms.CheckBox();
             this.addBitlockerButton = new System.Windows.Forms.Button();
+            this.button2 = new System.Windows.Forms.Button();
             this.AddUserGroupBox.SuspendLayout();
             this.seceditGroupBox.SuspendLayout();
             this.SuspendLayout();
@@ -72,6 +74,7 @@ namespace OptiConfigUI
             // AddUserGroupBox
             // 
             this.AddUserGroupBox.Controls.Add(this.descriptionLabel);
+            this.AddUserGroupBox.Controls.Add(this.visibilityButton);
             this.AddUserGroupBox.Controls.Add(this.groupLabel);
             this.AddUserGroupBox.Controls.Add(this.passwordLabel);
             this.AddUserGroupBox.Controls.Add(this.addUserButton);
@@ -97,6 +100,21 @@ namespace OptiConfigUI
             this.descriptionLabel.Size = new System.Drawing.Size(60, 13);
             this.descriptionLabel.TabIndex = 8;
             this.descriptionLabel.Text = "Description";
+            // 
+            // visibilityButton
+            // 
+            this.visibilityButton.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.visibilityButton.FlatAppearance.BorderSize = 0;
+            this.visibilityButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.visibilityButton.Image = global::OptiConfigUI.Properties.Resources.eyeNo;
+            this.visibilityButton.Location = new System.Drawing.Point(184, 46);
+            this.visibilityButton.Name = "visibilityButton";
+            this.visibilityButton.Size = new System.Drawing.Size(33, 21);
+            this.visibilityButton.TabIndex = 9;
+            this.visibilityButton.UseVisualStyleBackColor = true;
+            this.visibilityButton.Click += new System.EventHandler(this.visibilityButton_Click);
+            this.visibilityButton.MouseDown += new System.Windows.Forms.MouseEventHandler(this.visibilityButton_MouseDown);
+            this.visibilityButton.MouseUp += new System.Windows.Forms.MouseEventHandler(this.visibilityButton_MouseUp);
             // 
             // groupLabel
             // 
@@ -142,6 +160,7 @@ namespace OptiConfigUI
             this.descriptionTextBox.Name = "descriptionTextBox";
             this.descriptionTextBox.Size = new System.Drawing.Size(100, 20);
             this.descriptionTextBox.TabIndex = 3;
+            this.descriptionTextBox.TextChanged += new System.EventHandler(this.descriptionTextBox_TextChanged);
             // 
             // groupTextBox
             // 
@@ -156,6 +175,7 @@ namespace OptiConfigUI
             this.passwordTextBox.Name = "passwordTextBox";
             this.passwordTextBox.Size = new System.Drawing.Size(100, 20);
             this.passwordTextBox.TabIndex = 2;
+            this.passwordTextBox.UseSystemPasswordChar = true;
             // 
             // userTextBox
             // 
@@ -403,11 +423,21 @@ namespace OptiConfigUI
             this.addBitlockerButton.UseVisualStyleBackColor = true;
             this.addBitlockerButton.Click += new System.EventHandler(this.addBitlockerButton_Click);
             // 
+            // button2
+            // 
+            this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button2.Location = new System.Drawing.Point(471, 116);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(85, 29);
+            this.button2.TabIndex = 23;
+            this.button2.UseVisualStyleBackColor = true;
+            // 
             // OptiConfigDashboardForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(765, 437);
+            this.Controls.Add(this.button2);
             this.Controls.Add(this.addBitlockerButton);
             this.Controls.Add(this.secpolEnableCheckBox);
             this.Controls.Add(this.addUserEnableCheckBox);
@@ -474,6 +504,8 @@ namespace OptiConfigUI
         private System.Windows.Forms.CheckBox addUserEnableCheckBox;
         private System.Windows.Forms.CheckBox secpolEnableCheckBox;
         private System.Windows.Forms.Button addBitlockerButton;
+        private System.Windows.Forms.Button visibilityButton;
+        private System.Windows.Forms.Button button2;
     }
 }
 

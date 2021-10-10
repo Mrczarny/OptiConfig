@@ -1,2 +1,25 @@
 [
+  {
+    "Id": 0,
+    "Name": "sample config",
+    "BitlockerConfig": null,
+    "SecpolConfig": {
+      "PasswordComplexity": true,
+      "MinimumPasswordLength": 8,
+      "MaximumPasswordAge": 31,
+      "PasswordHistorySize": 9
+    },
+    "UserConfig": {
+      "UserName": "sample name",
+      "UserPassword": null,
+      "UserLocalGroup": "users",
+      "UserNeverExpires": false,
+      "UserExpires": "0001-01-01T00:00:00",
+      "UserPasswordNeverExpires": false,
+      "UserCantChangePassword": false,
+      "UserFullName": null,
+      "UserIsDisabled": false,
+      "UserDescription": ""
+    }
+  }
 ]

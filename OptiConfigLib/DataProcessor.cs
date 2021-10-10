@@ -19,14 +19,17 @@ namespace OptiConfigLib
             List<ConfigModel> allConfigs = new List<ConfigModel>();
             allConfigs = JsonConvert.DeserializeObject<List<ConfigModel>>(jsonFile);
             int HighestId = 0;
+
             if (allConfigs.Count > 0)
             {
                 HighestId = allConfigs.Max(x => x.Id) + 1;
             }
             model.Id = HighestId;
             allConfigs.Add(model);
+
             string jsonString = JsonConvert.SerializeObject(allConfigs);
             File.WriteAllText(JsonFilePath, jsonString);
+
             return allConfigs;
         }
         public List<ConfigModel> GetConfigModels()
