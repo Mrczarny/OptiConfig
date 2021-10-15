@@ -66,7 +66,6 @@ namespace OptiConfigUI
             this.addUserEnableCheckBox = new System.Windows.Forms.CheckBox();
             this.secpolEnableCheckBox = new System.Windows.Forms.CheckBox();
             this.addBitlockerButton = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
             this.AddUserGroupBox.SuspendLayout();
             this.seceditGroupBox.SuspendLayout();
             this.SuspendLayout();
@@ -300,15 +299,6 @@ namespace OptiConfigUI
             this.addBitlockerButton.Name = "addBitlockerButton";
             this.addBitlockerButton.UseVisualStyleBackColor = true;
             this.addBitlockerButton.Click += new System.EventHandler(this.addBitlockerButton_Click);
-            // 
-            // button2
-            // 
-            this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button2.Location = new System.Drawing.Point(471, 116);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(85, 29);
-            this.button2.TabIndex = 23;
-            this.button2.UseVisualStyleBackColor = true;
             // 
             // OptiConfigDashboardForm
             // 
