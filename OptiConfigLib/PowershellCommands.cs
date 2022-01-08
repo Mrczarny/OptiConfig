@@ -84,7 +84,7 @@ namespace OptiConfigLib
 
             CommandParameter userNameParameter = new CommandParameter("UserName", user.UserName);
             CommandParameter userPasswordParameter = new CommandParameter("Password", user.UserPassword);
-            CommandParameter userGroupParameter = new CommandParameter("UserLocalGroup", user.UserPassword);
+            CommandParameter userGroupParameter = new CommandParameter("UserLocalGroup", user.UserLocalGroup);
             List<CommandParameter> parametersList = new List<CommandParameter>() {userPasswordParameter, userNameParameter, userGroupParameter};
 
             return ReportHandler(ScriptRun(script, parametersList));

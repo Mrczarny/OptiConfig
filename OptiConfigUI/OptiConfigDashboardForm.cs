@@ -26,6 +26,7 @@ namespace OptiConfigUI
             LoadForm();
         }
 
+        //Utilites
         private void LoadForm()
         {
             //configLabel.Enabled = false;
@@ -61,7 +62,6 @@ namespace OptiConfigUI
 
             
         }
-
         private void updateForm()
         {
 
@@ -75,6 +75,8 @@ namespace OptiConfigUI
             savedConfigComboBox.Refresh();
         }
 
+
+        //Events
         private void bitlockerCheckBox_CheckedChanged(object sender, EventArgs e)
         {
             addBitlockerButton.Enabled = !addBitlockerButton.Enabled;
@@ -83,7 +85,6 @@ namespace OptiConfigUI
             serviceTagLabel.Enabled = !serviceTagLabel.Enabled;
             usbNameLabel.Enabled = !usbNameLabel.Enabled;
         }
-
         private void addUserButton_Click(object sender, EventArgs e)
         {
             addUser();
@@ -95,7 +96,7 @@ namespace OptiConfigUI
                 UserModel user = new UserModel();
                 user.UserName = userTextBox.Text;
                 user.UserPassword = new NetworkCredential("", passwordTextBox.Text).SecurePassword;
-                user.UserLocalGroup = userTextBox.Text;
+                user.UserLocalGroup = groupTextBox.Text;
                 user.UserDescription = descriptionTextBox.Text;
                 user.UserNeverExpires = neverUserCheckBox.Checked;
 
@@ -109,7 +110,6 @@ namespace OptiConfigUI
                 }
             }
         }
-
         private void seceditSetButton_Click(object sender, EventArgs e)
         {
             seceditSet();
@@ -134,7 +134,6 @@ namespace OptiConfigUI
                 }
             }
         }
-
         private void addBitlockerButton_Click(object sender, EventArgs e)
         {
             addBitlocker();
@@ -157,7 +156,6 @@ namespace OptiConfigUI
                 }
             }
         }
-
         private void saveConfigButton_Click(object sender, EventArgs e)
         {
             ConfigModel config = new ConfigModel();
@@ -270,7 +268,6 @@ namespace OptiConfigUI
                 }
             }
         }
-
         private void confirmButton_Click(object sender, EventArgs e)
         {
             if (secpolEnableCheckBox.Checked)
@@ -290,22 +287,41 @@ namespace OptiConfigUI
                 }           
             }
         }
-
         private void OptiConfigDashboardForm_Load(object sender, EventArgs e)
         {
 
         }
-
         private void addUserEnableCheckBox_CheckedChanged(object sender, EventArgs e)
         {
             AddUserGroupBox.Enabled = !AddUserGroupBox.Enabled;
         }
-
         private void secpolEnableCheckBox_CheckedChanged(object sender, EventArgs e)
         {
             seceditGroupBox.Enabled = !seceditGroupBox.Enabled;
         }
+        private void descriptionTextBox_TextChanged(object sender, EventArgs e)
+        {
 
+        }
+        private void visibilityButton_Click(object sender, EventArgs e)
+        {
+
+        }
+        private void visibilityButton_MouseDown(object sender, MouseEventArgs e)
+        {
+            //visibilityButton.BackColor = Color.Red; -- very good for debbuging! 
+            visibilityButton.Image = Image.FromFile(Application.StartupPath + @"\Resources\eyeYes.png");
+            passwordTextBox.UseSystemPasswordChar = false;
+        }
+        private void visibilityButton_MouseUp(object sender, MouseEventArgs e)
+        {
+            //visibilityButton.BackColor = Color.Transparent;
+            visibilityButton.Image = Image.FromFile(Application.StartupPath + @"\Resources\eyeNo.png");
+            passwordTextBox.UseSystemPasswordChar = true;
+        }
+
+
+        //Validation
         private bool validateUser()
         {
             bool output = true;
@@ -355,30 +371,6 @@ namespace OptiConfigUI
                 MessageBox.Show("Please enter valid password history size.", "Error editing security policy");
             }
             return output;
-        }
-
-        private void descriptionTextBox_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void visibilityButton_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void visibilityButton_MouseDown(object sender, MouseEventArgs e)
-        {
-            //visibilityButton.BackColor = Color.Red; -- very good for debbuging! 
-            visibilityButton.Image = Image.FromFile(Application.StartupPath + @"\Resources\eyeYes.png");
-            passwordTextBox.UseSystemPasswordChar = false;
-        }
-
-        private void visibilityButton_MouseUp(object sender, MouseEventArgs e)
-        {
-            //visibilityButton.BackColor = Color.Transparent;
-            visibilityButton.Image = Image.FromFile(Application.StartupPath + @"\Resources\eyeNo.png");
-            passwordTextBox.UseSystemPasswordChar = true;
         }
     }
 }

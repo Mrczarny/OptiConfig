@@ -1,4 +1,3 @@
-﻿Param($Password, $UserName, $UserLocalGroup)
-[securestring]$SecurePassword = ConvertTo-SecureString $Password -AsPlainText -Force
-New-LocalUser -Name $UserName -Password $SecurePassword -AccountNeverExpires
+﻿Param([securestring]$Password, $UserName, $UserLocalGroup)
+New-LocalUser -Name $UserName -Password $Password 
 Add-LocalGroupMember -Group $UserLocalGroup -Member $UserName
