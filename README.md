@@ -58,7 +58,7 @@ OptiConfig is simple tool to easly configure some of Windows 10 settings includi
   * editing password policy, 
   * and enabling bitlocker on your computer.
 
-OptiConfig is builded with thought to do all this things in one place with one click. 
+OptiConfig is build with thought to do all this things in one place with one click. 
 
 ### Built With
 
@@ -70,12 +70,12 @@ OptiConfig is builded with thought to do all this things in one place with one c
 
 ### Prerequisites
 
-OptiConfig uses .NET 4.7.2 Framework, so make sure to have this or higher version.
+OptiConfig uses .NET 4.7.2 Framework, so make sure to have it.
 
 ### Installation
 There is no installation needed, OptiConfig is portable.
 
-1. Get a latest version from: https://github.com/Mrczarny/OptiConfig/releases or https://www.mediafire.com/folder/7g8yrzlexmhct/OptiConfig
+1. Get a latest version from: https://github.com/Mrczarny/OptiConfig/releases
 2. Unzip folder
 3. And run .exe file
 
