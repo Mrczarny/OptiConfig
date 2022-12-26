@@ -39,9 +39,9 @@ namespace OptiConfigUI
             AddUserGroupBox.Enabled = true;
             seceditGroupBox.Enabled = true;
 
-            savedConfigComboBox.DataSource = null;
-            savedConfigComboBox.DataSource = configs;
-            savedConfigComboBox.DisplayMember = "Name";
+            savedConfigDropDownList.DataSource = null;
+            savedConfigDropDownList.DataSource = configs;
+            savedConfigDropDownList.DisplayMember = "Name";
 
             if (bitlockerCheckBox.Checked != true)
             {
@@ -69,10 +69,10 @@ namespace OptiConfigUI
         private void updateSavedConfigComboBox(List<ConfigModel> models)
         {
             configs = models;
-            savedConfigComboBox.DataSource = null;
-            savedConfigComboBox.DataSource = configs;
-            savedConfigComboBox.DisplayMember = "Name";
-            savedConfigComboBox.Refresh();
+            savedConfigDropDownList.DataSource = null;
+            savedConfigDropDownList.DataSource = configs;
+            savedConfigDropDownList.DisplayMember = "Name";
+            savedConfigDropDownList.Refresh();
         }
 
 
@@ -207,7 +207,7 @@ namespace OptiConfigUI
         }
         private void savedConfigComboBox_SelectedIndexChanged(object sender, EventArgs e)
         {
-            ConfigModel config = (ConfigModel)savedConfigComboBox.SelectedItem;
+            ConfigModel config = (ConfigModel)savedConfigDropDownList.SelectedItem;
 
             if (config != null)
             {

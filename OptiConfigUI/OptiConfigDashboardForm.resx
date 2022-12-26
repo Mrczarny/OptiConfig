@@ -117,171 +117,11 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="&gt;&gt;descriptionLabel.Name" xml:space="preserve">
-    <value>descriptionLabel</value>
-  </data>
-  <data name="&gt;&gt;descriptionLabel.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;descriptionLabel.Parent" xml:space="preserve">
-    <value>AddUserGroupBox</value>
-  </data>
-  <data name="&gt;&gt;descriptionLabel.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="&gt;&gt;visibilityButton.Name" xml:space="preserve">
-    <value>visibilityButton</value>
-  </data>
-  <data name="&gt;&gt;visibilityButton.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;visibilityButton.Parent" xml:space="preserve">
-    <value>AddUserGroupBox</value>
-  </data>
-  <data name="&gt;&gt;visibilityButton.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
-  <data name="&gt;&gt;groupLabel.Name" xml:space="preserve">
-    <value>groupLabel</value>
-  </data>
-  <data name="&gt;&gt;groupLabel.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;groupLabel.Parent" xml:space="preserve">
-    <value>AddUserGroupBox</value>
-  </data>
-  <data name="&gt;&gt;groupLabel.ZOrder" xml:space="preserve">
-    <value>2</value>
-  </data>
-  <data name="&gt;&gt;passwordLabel.Name" xml:space="preserve">
-    <value>passwordLabel</value>
-  </data>
-  <data name="&gt;&gt;passwordLabel.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;passwordLabel.Parent" xml:space="preserve">
-    <value>AddUserGroupBox</value>
-  </data>
-  <data name="&gt;&gt;passwordLabel.ZOrder" xml:space="preserve">
-    <value>3</value>
-  </data>
-  <data name="&gt;&gt;addUserButton.Name" xml:space="preserve">
-    <value>addUserButton</value>
-  </data>
-  <data name="&gt;&gt;addUserButton.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;addUserButton.Parent" xml:space="preserve">
-    <value>AddUserGroupBox</value>
-  </data>
-  <data name="&gt;&gt;addUserButton.ZOrder" xml:space="preserve">
-    <value>4</value>
-  </data>
-  <data name="&gt;&gt;neverUserCheckBox.Name" xml:space="preserve">
-    <value>neverUserCheckBox</value>
-  </data>
-  <data name="&gt;&gt;neverUserCheckBox.Type" xml:space="preserve">
-    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;neverUserCheckBox.Parent" xml:space="preserve">
-    <value>AddUserGroupBox</value>
-  </data>
-  <data name="&gt;&gt;neverUserCheckBox.ZOrder" xml:space="preserve">
-    <value>5</value>
-  </data>
-  <data name="&gt;&gt;descriptionTextBox.Name" xml:space="preserve">
-    <value>descriptionTextBox</value>
-  </data>
-  <data name="&gt;&gt;descriptionTextBox.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;descriptionTextBox.Parent" xml:space="preserve">
-    <value>AddUserGroupBox</value>
-  </data>
-  <data name="&gt;&gt;descriptionTextBox.ZOrder" xml:space="preserve">
-    <value>6</value>
-  </data>
-  <data name="&gt;&gt;groupTextBox.Name" xml:space="preserve">
-    <value>groupTextBox</value>
-  </data>
-  <data name="&gt;&gt;groupTextBox.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;groupTextBox.Parent" xml:space="preserve">
-    <value>AddUserGroupBox</value>
-  </data>
-  <data name="&gt;&gt;groupTextBox.ZOrder" xml:space="preserve">
-    <value>7</value>
-  </data>
-  <data name="&gt;&gt;passwordTextBox.Name" xml:space="preserve">
-    <value>passwordTextBox</value>
-  </data>
-  <data name="&gt;&gt;passwordTextBox.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;passwordTextBox.Parent" xml:space="preserve">
-    <value>AddUserGroupBox</value>
-  </data>
-  <data name="&gt;&gt;passwordTextBox.ZOrder" xml:space="preserve">
-    <value>8</value>
-  </data>
-  <data name="&gt;&gt;userTextBox.Name" xml:space="preserve">
-    <value>userTextBox</value>
-  </data>
-  <data name="&gt;&gt;userTextBox.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;userTextBox.Parent" xml:space="preserve">
-    <value>AddUserGroupBox</value>
-  </data>
-  <data name="&gt;&gt;userTextBox.ZOrder" xml:space="preserve">
-    <value>9</value>
-  </data>
-  <data name="&gt;&gt;userLabel.Name" xml:space="preserve">
-    <value>userLabel</value>
-  </data>
-  <data name="&gt;&gt;userLabel.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;userLabel.Parent" xml:space="preserve">
-    <value>AddUserGroupBox</value>
-  </data>
-  <data name="&gt;&gt;userLabel.ZOrder" xml:space="preserve">
-    <value>10</value>
-  </data>
-  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
-  <data name="AddUserGroupBox.Location" type="System.Drawing.Point, System.Drawing">
-    <value>28, 151</value>
-  </data>
-  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="AddUserGroupBox.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>6, 6, 6, 6</value>
-  </data>
-  <data name="AddUserGroupBox.Size" type="System.Drawing.Size, System.Drawing">
-    <value>270, 183</value>
-  </data>
   <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="AddUserGroupBox.TabIndex" type="System.Int32, mscorlib">
-    <value>0</value>
-  </data>
-  <data name="AddUserGroupBox.Text" xml:space="preserve">
-    <value>Add user</value>
-  </data>
-  <data name="&gt;&gt;AddUserGroupBox.Name" xml:space="preserve">
-    <value>AddUserGroupBox</value>
-  </data>
-  <data name="&gt;&gt;AddUserGroupBox.Type" xml:space="preserve">
-    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;AddUserGroupBox.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;AddUserGroupBox.ZOrder" xml:space="preserve">
-    <value>15</value>
-  </data>
   <data name="descriptionLabel.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
   <data name="descriptionLabel.Location" type="System.Drawing.Point, System.Drawing">
     <value>10, 101</value>
   </data>
@@ -306,6 +146,7 @@
   <data name="&gt;&gt;descriptionLabel.ZOrder" xml:space="preserve">
     <value>0</value>
   </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
   <data name="visibilityButton.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
     <value>Zoom</value>
   </data>
@@ -418,7 +259,7 @@
     <value>13, 124</value>
   </data>
   <data name="neverUserCheckBox.Size" type="System.Drawing.Size, System.Drawing">
-    <value>109, 17</value>
+    <value>116, 21</value>
   </data>
   <data name="neverUserCheckBox.TabIndex" type="System.Int32, mscorlib">
     <value>4</value>
@@ -549,6 +390,33 @@
   <data name="&gt;&gt;userLabel.ZOrder" xml:space="preserve">
     <value>10</value>
   </data>
+  <data name="AddUserGroupBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>28, 151</value>
+  </data>
+  <data name="AddUserGroupBox.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>6, 6, 6, 6</value>
+  </data>
+  <data name="AddUserGroupBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>270, 183</value>
+  </data>
+  <data name="AddUserGroupBox.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="AddUserGroupBox.Text" xml:space="preserve">
+    <value>Add user</value>
+  </data>
+  <data name="&gt;&gt;AddUserGroupBox.Name" xml:space="preserve">
+    <value>AddUserGroupBox</value>
+  </data>
+  <data name="&gt;&gt;AddUserGroupBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;AddUserGroupBox.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;AddUserGroupBox.ZOrder" xml:space="preserve">
+    <value>15</value>
+  </data>
   <data name="serviceTagLabel.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
@@ -559,7 +427,7 @@
     <value>24, 65</value>
   </data>
   <data name="serviceTagLabel.Size" type="System.Drawing.Size, System.Drawing">
-    <value>92, 20</value>
+    <value>143, 29</value>
   </data>
   <data name="serviceTagLabel.TabIndex" type="System.Int32, mscorlib">
     <value>9</value>
@@ -586,7 +454,7 @@
     <value>140, 62</value>
   </data>
   <data name="serviceTagTextBox.Size" type="System.Drawing.Size, System.Drawing">
-    <value>105, 26</value>
+    <value>105, 35</value>
   </data>
   <data name="serviceTagTextBox.TabIndex" type="System.Int32, mscorlib">
     <value>10</value>
@@ -610,7 +478,7 @@
     <value>140, 105</value>
   </data>
   <data name="usbNameTextBox.Size" type="System.Drawing.Size, System.Drawing">
-    <value>105, 26</value>
+    <value>105, 35</value>
   </data>
   <data name="usbNameTextBox.TabIndex" type="System.Int32, mscorlib">
     <value>12</value>
@@ -637,7 +505,7 @@
     <value>24, 105</value>
   </data>
   <data name="usbNameLabel.Size" type="System.Drawing.Size, System.Drawing">
-    <value>84, 20</value>
+    <value>127, 29</value>
   </data>
   <data name="usbNameLabel.TabIndex" type="System.Int32, mscorlib">
     <value>11</value>
@@ -657,138 +525,6 @@
   <data name="&gt;&gt;usbNameLabel.ZOrder" xml:space="preserve">
     <value>12</value>
   </data>
-  <data name="&gt;&gt;passwordComplCheckBox.Name" xml:space="preserve">
-    <value>passwordComplCheckBox</value>
-  </data>
-  <data name="&gt;&gt;passwordComplCheckBox.Type" xml:space="preserve">
-    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;passwordComplCheckBox.Parent" xml:space="preserve">
-    <value>seceditGroupBox</value>
-  </data>
-  <data name="&gt;&gt;passwordComplCheckBox.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="&gt;&gt;passwordComplLabel.Name" xml:space="preserve">
-    <value>passwordComplLabel</value>
-  </data>
-  <data name="&gt;&gt;passwordComplLabel.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;passwordComplLabel.Parent" xml:space="preserve">
-    <value>seceditGroupBox</value>
-  </data>
-  <data name="&gt;&gt;passwordComplLabel.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
-  <data name="&gt;&gt;seceditSetButton.Name" xml:space="preserve">
-    <value>seceditSetButton</value>
-  </data>
-  <data name="&gt;&gt;seceditSetButton.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;seceditSetButton.Parent" xml:space="preserve">
-    <value>seceditGroupBox</value>
-  </data>
-  <data name="&gt;&gt;seceditSetButton.ZOrder" xml:space="preserve">
-    <value>2</value>
-  </data>
-  <data name="&gt;&gt;passwordHisSizeLabel.Name" xml:space="preserve">
-    <value>passwordHisSizeLabel</value>
-  </data>
-  <data name="&gt;&gt;passwordHisSizeLabel.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;passwordHisSizeLabel.Parent" xml:space="preserve">
-    <value>seceditGroupBox</value>
-  </data>
-  <data name="&gt;&gt;passwordHisSizeLabel.ZOrder" xml:space="preserve">
-    <value>3</value>
-  </data>
-  <data name="&gt;&gt;maxPasswordAgeLabel.Name" xml:space="preserve">
-    <value>maxPasswordAgeLabel</value>
-  </data>
-  <data name="&gt;&gt;maxPasswordAgeLabel.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;maxPasswordAgeLabel.Parent" xml:space="preserve">
-    <value>seceditGroupBox</value>
-  </data>
-  <data name="&gt;&gt;maxPasswordAgeLabel.ZOrder" xml:space="preserve">
-    <value>4</value>
-  </data>
-  <data name="&gt;&gt;passwordMinLengLabel.Name" xml:space="preserve">
-    <value>passwordMinLengLabel</value>
-  </data>
-  <data name="&gt;&gt;passwordMinLengLabel.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;passwordMinLengLabel.Parent" xml:space="preserve">
-    <value>seceditGroupBox</value>
-  </data>
-  <data name="&gt;&gt;passwordMinLengLabel.ZOrder" xml:space="preserve">
-    <value>5</value>
-  </data>
-  <data name="&gt;&gt;passwordHisSizeTextBox.Name" xml:space="preserve">
-    <value>passwordHisSizeTextBox</value>
-  </data>
-  <data name="&gt;&gt;passwordHisSizeTextBox.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;passwordHisSizeTextBox.Parent" xml:space="preserve">
-    <value>seceditGroupBox</value>
-  </data>
-  <data name="&gt;&gt;passwordHisSizeTextBox.ZOrder" xml:space="preserve">
-    <value>6</value>
-  </data>
-  <data name="&gt;&gt;maxPasswordAgeTextBox.Name" xml:space="preserve">
-    <value>maxPasswordAgeTextBox</value>
-  </data>
-  <data name="&gt;&gt;maxPasswordAgeTextBox.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;maxPasswordAgeTextBox.Parent" xml:space="preserve">
-    <value>seceditGroupBox</value>
-  </data>
-  <data name="&gt;&gt;maxPasswordAgeTextBox.ZOrder" xml:space="preserve">
-    <value>7</value>
-  </data>
-  <data name="&gt;&gt;passwordMinLengTextBox.Name" xml:space="preserve">
-    <value>passwordMinLengTextBox</value>
-  </data>
-  <data name="&gt;&gt;passwordMinLengTextBox.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;passwordMinLengTextBox.Parent" xml:space="preserve">
-    <value>seceditGroupBox</value>
-  </data>
-  <data name="&gt;&gt;passwordMinLengTextBox.ZOrder" xml:space="preserve">
-    <value>8</value>
-  </data>
-  <data name="seceditGroupBox.Location" type="System.Drawing.Point, System.Drawing">
-    <value>330, 151</value>
-  </data>
-  <data name="seceditGroupBox.Size" type="System.Drawing.Size, System.Drawing">
-    <value>262, 183</value>
-  </data>
-  <data name="seceditGroupBox.TabIndex" type="System.Int32, mscorlib">
-    <value>13</value>
-  </data>
-  <data name="seceditGroupBox.Text" xml:space="preserve">
-    <value>Security edit</value>
-  </data>
-  <data name="&gt;&gt;seceditGroupBox.Name" xml:space="preserve">
-    <value>seceditGroupBox</value>
-  </data>
-  <data name="&gt;&gt;seceditGroupBox.Type" xml:space="preserve">
-    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;seceditGroupBox.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;seceditGroupBox.ZOrder" xml:space="preserve">
-    <value>10</value>
-  </data>
   <data name="passwordComplCheckBox.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
@@ -796,7 +532,7 @@
     <value>141, 26</value>
   </data>
   <data name="passwordComplCheckBox.Size" type="System.Drawing.Size, System.Drawing">
-    <value>15, 14</value>
+    <value>22, 21</value>
   </data>
   <data name="passwordComplCheckBox.TabIndex" type="System.Int32, mscorlib">
     <value>19</value>
@@ -1008,28 +744,52 @@
   <data name="&gt;&gt;passwordMinLengTextBox.ZOrder" xml:space="preserve">
     <value>8</value>
   </data>
-  <data name="savedConfigComboBox.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft Sans Serif, 11pt</value>
+  <data name="seceditGroupBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>330, 151</value>
   </data>
-  <data name="savedConfigComboBox.Location" type="System.Drawing.Point, System.Drawing">
-    <value>594, 65</value>
+  <data name="seceditGroupBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>262, 183</value>
   </data>
-  <data name="savedConfigComboBox.Size" type="System.Drawing.Size, System.Drawing">
-    <value>148, 26</value>
+  <data name="seceditGroupBox.TabIndex" type="System.Int32, mscorlib">
+    <value>13</value>
   </data>
-  <data name="savedConfigComboBox.TabIndex" type="System.Int32, mscorlib">
-    <value>14</value>
+  <data name="seceditGroupBox.Text" xml:space="preserve">
+    <value>Security edit</value>
   </data>
-  <data name="&gt;&gt;savedConfigComboBox.Name" xml:space="preserve">
-    <value>savedConfigComboBox</value>
+  <data name="&gt;&gt;seceditGroupBox.Name" xml:space="preserve">
+    <value>seceditGroupBox</value>
   </data>
-  <data name="&gt;&gt;savedConfigComboBox.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="&gt;&gt;seceditGroupBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;savedConfigComboBox.Parent" xml:space="preserve">
+  <data name="&gt;&gt;seceditGroupBox.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
-  <data name="&gt;&gt;savedConfigComboBox.ZOrder" xml:space="preserve">
+  <data name="&gt;&gt;seceditGroupBox.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="savedConfigDropDownList.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 11pt</value>
+  </data>
+  <data name="savedConfigDropDownList.Location" type="System.Drawing.Point, System.Drawing">
+    <value>594, 65</value>
+  </data>
+  <data name="savedConfigDropDownList.Size" type="System.Drawing.Size, System.Drawing">
+    <value>148, 34</value>
+  </data>
+  <data name="savedConfigDropDownList.TabIndex" type="System.Int32, mscorlib">
+    <value>14</value>
+  </data>
+  <data name="&gt;&gt;savedConfigDropDownList.Name" xml:space="preserve">
+    <value>savedConfigDropDownList</value>
+  </data>
+  <data name="&gt;&gt;savedConfigDropDownList.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;savedConfigDropDownList.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;savedConfigDropDownList.ZOrder" xml:space="preserve">
     <value>9</value>
   </data>
   <data name="savedConfigLabel.AutoSize" type="System.Boolean, mscorlib">
@@ -1042,7 +802,7 @@
     <value>619, 42</value>
   </data>
   <data name="savedConfigLabel.Size" type="System.Drawing.Size, System.Drawing">
-    <value>104, 20</value>
+    <value>157, 29</value>
   </data>
   <data name="savedConfigLabel.TabIndex" type="System.Int32, mscorlib">
     <value>15</value>
@@ -1117,7 +877,7 @@
     <value>140, 20</value>
   </data>
   <data name="configTextBox.Size" type="System.Drawing.Size, System.Drawing">
-    <value>105, 26</value>
+    <value>105, 35</value>
   </data>
   <data name="configTextBox.TabIndex" type="System.Int32, mscorlib">
     <value>19</value>
@@ -1144,7 +904,7 @@
     <value>24, 20</value>
   </data>
   <data name="configLabel.Size" type="System.Drawing.Size, System.Drawing">
-    <value>101, 20</value>
+    <value>154, 29</value>
   </data>
   <data name="configLabel.TabIndex" type="System.Int32, mscorlib">
     <value>18</value>
@@ -1174,7 +934,7 @@
     <value>267, 62</value>
   </data>
   <data name="bitlockerCheckBox.Size" type="System.Drawing.Size, System.Drawing">
-    <value>93, 24</value>
+    <value>139, 33</value>
   </data>
   <data name="bitlockerCheckBox.TabIndex" type="System.Int32, mscorlib">
     <value>20</value>
@@ -1201,7 +961,7 @@
     <value>290, 151</value>
   </data>
   <data name="addUserEnableCheckBox.Size" type="System.Drawing.Size, System.Drawing">
-    <value>15, 14</value>
+    <value>22, 21</value>
   </data>
   <data name="addUserEnableCheckBox.TabIndex" type="System.Int32, mscorlib">
     <value>20</value>
@@ -1225,7 +985,7 @@
     <value>585, 151</value>
   </data>
   <data name="secpolEnableCheckBox.Size" type="System.Drawing.Size, System.Drawing">
-    <value>15, 14</value>
+    <value>22, 21</value>
   </data>
   <data name="secpolEnableCheckBox.TabIndex" type="System.Int32, mscorlib">
     <value>21</value>

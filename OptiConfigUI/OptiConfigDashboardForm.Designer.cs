@@ -56,7 +56,7 @@ namespace OptiConfigUI
             this.passwordHisSizeTextBox = new System.Windows.Forms.TextBox();
             this.maxPasswordAgeTextBox = new System.Windows.Forms.TextBox();
             this.passwordMinLengTextBox = new System.Windows.Forms.TextBox();
-            this.savedConfigComboBox = new System.Windows.Forms.ComboBox();
+            this.savedConfigDropDownList = new System.Windows.Forms.ComboBox();
             this.savedConfigLabel = new System.Windows.Forms.Label();
             this.confirmButton = new System.Windows.Forms.Button();
             this.saveConfigButton = new System.Windows.Forms.Button();
@@ -236,12 +236,13 @@ namespace OptiConfigUI
             resources.ApplyResources(this.passwordMinLengTextBox, "passwordMinLengTextBox");
             this.passwordMinLengTextBox.Name = "passwordMinLengTextBox";
             // 
-            // savedConfigComboBox
+            // savedConfigDropDownList
             // 
-            resources.ApplyResources(this.savedConfigComboBox, "savedConfigComboBox");
-            this.savedConfigComboBox.FormattingEnabled = true;
-            this.savedConfigComboBox.Name = "savedConfigComboBox";
-            this.savedConfigComboBox.SelectedIndexChanged += new System.EventHandler(this.savedConfigComboBox_SelectedIndexChanged);
+            this.savedConfigDropDownList.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            resources.ApplyResources(this.savedConfigDropDownList, "savedConfigDropDownList");
+            this.savedConfigDropDownList.FormattingEnabled = true;
+            this.savedConfigDropDownList.Name = "savedConfigDropDownList";
+            this.savedConfigDropDownList.SelectedIndexChanged += new System.EventHandler(this.savedConfigComboBox_SelectedIndexChanged);
             // 
             // savedConfigLabel
             // 
@@ -314,7 +315,7 @@ namespace OptiConfigUI
             this.Controls.Add(this.saveConfigButton);
             this.Controls.Add(this.confirmButton);
             this.Controls.Add(this.savedConfigLabel);
-            this.Controls.Add(this.savedConfigComboBox);
+            this.Controls.Add(this.savedConfigDropDownList);
             this.Controls.Add(this.seceditGroupBox);
             this.Controls.Add(this.usbNameTextBox);
             this.Controls.Add(this.usbNameLabel);
@@ -360,7 +361,7 @@ namespace OptiConfigUI
         private System.Windows.Forms.TextBox passwordMinLengTextBox;
         private System.Windows.Forms.CheckBox passwordComplCheckBox;
         private System.Windows.Forms.Label passwordComplLabel;
-        private System.Windows.Forms.ComboBox savedConfigComboBox;
+        private System.Windows.Forms.ComboBox savedConfigDropDownList;
         private System.Windows.Forms.Label savedConfigLabel;
         private System.Windows.Forms.Button confirmButton;
         private System.Windows.Forms.Button saveConfigButton;

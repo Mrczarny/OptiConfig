@@ -37,7 +37,12 @@ Function Set-SecPol($Object, $CfgFile){
 $SecPool = Parse-SecPol -CfgFile C:\Users\$env:UserName\Desktop\Test.cfg
 $SecPool.'System Access'.PasswordComplexity = $PasswordComplexity
 $SecPool.'System Access'.MinimumPasswordLength = $MinimumPasswordLength
-$SecPool.'System Access'.MaximumPasswordAge = $MaximumPasswordAge
+if($MaximumPasswordAge -eq 0) {
+    $SecPool.'System Access'.MaximumPasswordAge = $null
+} else {
+    $SecPool.'System Access'.MaximumPasswordAge = $MaximumPasswordAge
+}
 $SecPool.'System Access'.PasswordHistorySize = $PasswordHistorySize
 
 Set-SecPol -Object $SecPool -CfgFile C:\Users\$env:UserName\Desktop\Test.cfg
+Remove-Item C:\Users\$env:UserName\Desktop\Test.cfg
