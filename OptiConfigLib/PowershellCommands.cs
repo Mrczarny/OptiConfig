@@ -9,6 +9,8 @@ using OptiConfigLib.Models;
 using System.IO;
 using System.Management.Automation.Runspaces;
 using System.Runtime.CompilerServices;
+using Microsoft.PowerShell;
+using static System.Formats.Asn1.AsnWriter;
 
 namespace OptiConfigLib
 {
@@ -24,38 +26,45 @@ namespace OptiConfigLib
         /// <returns>Returns report which contains list of errors and script's result</returns>
         private Dictionary<string, string> ScriptRun(string Script, List<CommandParameter> Parameters)
         {
-            string executionPolicy = "set-executionpolicy -ExecutionPolicy \"remotesigned\" -Scope \"Process\" -Force";
+            //string executionPolicy = "set-executionpolicy -ExecutionPolicy \"remotesigned\" -Scope \"Process\" -Force";
 
-            RunspaceConfiguration runspaceConfiguration = RunspaceConfiguration.Create();
-            Runspace rs = RunspaceFactory.CreateRunspace(runspaceConfiguration);
-            rs.Open();
-            Pipeline pl = rs.CreatePipeline();
+            InitialSessionState runspaceConfiguration = InitialSessionState.CreateDefault();
+            runspaceConfiguration.ExecutionPolicy = ExecutionPolicy.RemoteSigned;
+            var ps = PowerShell.Create(runspaceConfiguration);
+            //rs.Open();
+            //Pipeline pl = rs.CreatePipeline();
+            //var exePol = new Command("Set-ExecutionPolicy")
+            //{
+            //    Parameters = {"-ExecutionPolicy \"remotesigned\"", "-Scope \"Process\"", "-Force"}
+            //};
 
-            pl.Commands.AddScript(executionPolicy);
-            pl.Invoke();
-            pl.Commands.Clear();                        // It looks awful.
-            pl.Stop();
+            //ps.Commands.AddCommand(exePol);
+            
+            //ps.Invoke();
+            //ps.Commands.Clear();                        // It looks awful.
+            ////ps.Stop();
 
-            pl = rs.CreatePipeline();
             Command scriptCommand = new Command(Script);
             foreach (CommandParameter cp in Parameters)
             {
                 scriptCommand.Parameters.Add(cp);
             }
-            pl.Commands.Add(scriptCommand);
-            pl.Commands.Add("Out-String"); 
+            ps.Commands.AddCommand(scriptCommand);
+            ps.Commands.AddCommand("Out-String"); 
             
             //Run script here
-            Collection<PSObject> resultObjects = pl.Invoke();
-            string[] Info = new string[pl.Error.Count + 1];
-            if (pl.Error.Count > 0)
+            Collection<PSObject> resultObjects = ps.Invoke();
+
+            string[] Info = new string[ps.Streams.Error.Count + 1];
+            if (ps.Streams.Error.Count > 0)
             {
-                for (int i = 0; i < pl.Error.Count; i++)
+                for (int i = 0; i < ps.Streams.Error.Count; i++)
                 {
-                    Info[i] = pl.Error.ReadToEnd()[i].ToString();
+                    
+                    Info[i] = ps.Streams.Error[i].ToString();
                 }
             }
-            rs.Close();
+            ps.Runspace.Close();
 
             StringBuilder resultStringBuilder = new StringBuilder();
             foreach (PSObject resultObject in resultObjects)
