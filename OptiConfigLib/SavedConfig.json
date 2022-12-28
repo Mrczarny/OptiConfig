@@ -11,8 +11,8 @@
     },
     "UserConfig": {
       "UserName": "sample",
-      "UserPassword": { "Length": 6 },
-      "UserPasswordHashed": "91NaYOsSddaId7iZtGPGqDYt8PjTLvkrvzq7p5P8LFwMOdxkLlu5l+8efcwzN9uTSs3H3xRt9W6EIna5MlkH4X7iIfNtre+/WjLwOMmzbrzRkmhN8+/xC21Qfr+VYTUq",
+      "UserPassword": { "Length": 0 },
+      "UserPasswordHashed": null,
       "UserLocalGroup": "sample",
       "UserNeverExpires": false,
       "UserExpires": "0001-01-01T00:00:00",

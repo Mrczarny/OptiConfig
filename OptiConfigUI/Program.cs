@@ -16,6 +16,7 @@ namespace OptiConfigUI
         static void Main()
         {
             Application.EnableVisualStyles();
+            Application.SetHighDpiMode(HighDpiMode.SystemAware);
             Application.SetCompatibleTextRenderingDefault(false);
             GlobalConfig.InitializeGlobalConfig();
             Application.Run(new OptiConfigDashboardForm());
