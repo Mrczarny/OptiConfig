@@ -62,22 +62,21 @@ OptiConfig is build with thought to do all this things in one place with one cli
 
 ### Built With
 
-* .NET framework version 4.7.2 
-* Powershell 5.1
+* .NET version 7.0
+* Powershell 7.3
 
 <!-- GETTING STARTED -->
 ## Getting Started
 
 ### Prerequisites
 
-OptiConfig uses .NET 4.7.2 Framework, so make sure to have it.
+OptiConfig uses .NET 7.0, so make sure to have it.
 
 ### Installation
 There is no installation needed, OptiConfig is portable.
 
 1. Get a latest version from: https://github.com/Mrczarny/OptiConfig/releases
-2. Unzip folder
-3. And run .exe file
+2. And run .exe file
 
 
 
